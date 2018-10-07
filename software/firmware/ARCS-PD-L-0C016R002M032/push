@@ -1,0 +1,2 @@
+#!/bin/bash
+"../.tool-avrdude/bin/avrdude" -C"../.tool-avrdude/etc/avrdude.conf" -v -patmega328p -cusbasp -Pu sb -Uflash:w:.pioenvs/pro16MHzatmega328/firmware.hex:i
