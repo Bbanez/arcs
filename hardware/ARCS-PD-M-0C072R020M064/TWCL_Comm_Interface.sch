@@ -28,7 +28,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7100 4500 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx-custom:74LVC1G00 U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G00-74xGxx-custom U?
 U 1 1 5E529A58
 P 6650 4500
 AR Path="/5E529A58" Ref="U?"  Part="1" 
@@ -108,7 +108,7 @@ Connection ~ 6050 4450
 Text GLabel 8150 4950 2    50   BiDi ~ 0
 T3-TX
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E529A84
 P 6000 4950
 AR Path="/5E529A84" Ref="U?"  Part="1" 
@@ -266,7 +266,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4400 2000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx-custom:74LVC1G00 U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G00-74xGxx-custom U?
 U 1 1 5E529ADC
 P 3950 2000
 AR Path="/5E529ADC" Ref="U?"  Part="1" 
@@ -306,7 +306,7 @@ $EndComp
 Text GLabel 4950 2650 2    50   BiDi ~ 0
 T2-TX
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E529AF1
 P 3300 2450
 AR Path="/5E529AF1" Ref="U?"  Part="1" 
@@ -356,7 +356,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4500 3700 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E529B0C
 P 4750 3900
 AR Path="/5E529B0C" Ref="U?"  Part="1" 
@@ -369,7 +369,7 @@ F 3 "" H 4750 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E529B13
 P 3300 3450
 AR Path="/5E529B13" Ref="U?"  Part="1" 
@@ -465,7 +465,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7100 2400 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx-custom:74LVC1G00 U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G00-74xGxx-custom U?
 U 1 1 5E529B44
 P 6650 2400
 AR Path="/5E529B44" Ref="U?"  Part="1" 
@@ -545,7 +545,7 @@ Connection ~ 6050 2350
 Text GLabel 8150 2850 2    50   BiDi ~ 0
 T1-TX
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E529B70
 P 6000 2850
 AR Path="/5E529B70" Ref="U?"  Part="1" 

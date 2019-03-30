@@ -141,7 +141,7 @@ Wire Wire Line
 	7450 5150 7450 5050
 Connection ~ 7150 5150
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AD80
 P 6400 5750
 AR Path="/5E07AD80" Ref="U?"  Part="1" 
@@ -474,7 +474,7 @@ Wire Wire Line
 	4700 4050 4250 4050
 Connection ~ 4250 4050
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AE34
 P 4900 4500
 AR Path="/5E07AE34" Ref="U?"  Part="1" 
@@ -860,7 +860,7 @@ Wire Wire Line
 	9950 5150 9950 5050
 Connection ~ 9650 5150
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AF08
 P 8900 5750
 AR Path="/5E07AF08" Ref="U?"  Part="1" 
@@ -993,7 +993,7 @@ Wire Wire Line
 	12400 5150 12400 5050
 Connection ~ 12100 5150
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AF52
 P 11350 5750
 AR Path="/5E07AF52" Ref="U?"  Part="1" 
@@ -1126,7 +1126,7 @@ Wire Wire Line
 	14900 5150 14900 5050
 Connection ~ 14600 5150
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AF9C
 P 13850 5750
 AR Path="/5E07AF9C" Ref="U?"  Part="1" 
@@ -1259,7 +1259,7 @@ Wire Wire Line
 Connection ~ 7200 7450
 Connection ~ 7500 7450
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07AFE6
 P 6450 8050
 AR Path="/5E07AFE6" Ref="U?"  Part="1" 
@@ -1392,7 +1392,7 @@ Wire Wire Line
 Connection ~ 9650 7450
 Connection ~ 9950 7450
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07B030
 P 8900 8050
 AR Path="/5E07B030" Ref="U?"  Part="1" 
@@ -1525,7 +1525,7 @@ Wire Wire Line
 Connection ~ 12100 7450
 Connection ~ 12400 7450
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07B07A
 P 11350 8050
 AR Path="/5E07B07A" Ref="U?"  Part="1" 
@@ -1658,7 +1658,7 @@ Wire Wire Line
 Connection ~ 14600 7450
 Connection ~ 14900 7450
 $Comp
-L 74xGxx-custom:74LVC1G125-Custom U?
+L ARCS-PD-M-0C072R020M064-rescue:74LVC1G125-Custom-74xGxx-custom U?
 U 1 1 5E07B0C4
 P 13850 8050
 AR Path="/5E07B0C4" Ref="U?"  Part="1" 

@@ -541,7 +541,7 @@ F0 "Sheet5E52870B" 50
 F1 "TWCL_Comm_Interface.sch" 50
 $EndSheet
 $Sheet
-S 7400 3000 1700 1400
+S 600  1850 1700 1400
 U 5E6E13CF
 F0 "Sheet5E6E13CE" 50
 F1 "8Bit_Shifted_Input.sch" 50

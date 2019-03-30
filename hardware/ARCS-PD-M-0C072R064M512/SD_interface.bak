@@ -1,0 +1,195 @@
+EESchema Schematic File Version 4
+LIBS:ARCS-PD-M-0C072R064M512-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Micro_SD_Card J?
+U 1 1 5CCB2F0A
+P 7000 3550
+F 0 "J?" H 6950 4267 50  0000 C CNN
+F 1 "Micro_SD_Card" H 6950 4176 50  0000 C CNN
+F 2 "" H 8150 3850 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7000 3550 50  0001 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5CCB2F51
+P 7800 4300
+F 0 "L?" H 7853 4346 50  0000 L CNN
+F 1 "1u" H 7853 4255 50  0000 L CNN
+F 2 "" H 7800 4300 50  0001 C CNN
+F 3 "~" H 7800 4300 50  0001 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CCB3027
+P 7800 4550
+F 0 "#PWR?" H 7800 4300 50  0001 C CNN
+F 1 "Earth" H 7800 4400 50  0001 C CNN
+F 2 "" H 7800 4550 50  0001 C CNN
+F 3 "~" H 7800 4550 50  0001 C CNN
+	1    7800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCB3064
+P 5850 3100
+F 0 "R?" H 5920 3146 50  0000 L CNN
+F 1 "10k" H 5920 3055 50  0000 L CNN
+F 2 "" V 5780 3100 50  0001 C CNN
+F 3 "~" H 5850 3100 50  0001 C CNN
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCB30DD
+P 5500 3100
+F 0 "R?" H 5570 3146 50  0000 L CNN
+F 1 "10k" H 5570 3055 50  0000 L CNN
+F 2 "" V 5430 3100 50  0001 C CNN
+F 3 "~" H 5500 3100 50  0001 C CNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCB30FF
+P 5150 3100
+F 0 "R?" H 5220 3146 50  0000 L CNN
+F 1 "10k" H 5220 3055 50  0000 L CNN
+F 2 "" V 5080 3100 50  0001 C CNN
+F 3 "~" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCB3123
+P 4750 3100
+F 0 "R?" H 4820 3146 50  0000 L CNN
+F 1 "10k" H 4820 3055 50  0000 L CNN
+F 2 "" V 4680 3100 50  0001 C CNN
+F 3 "~" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCB314F
+P 4400 3100
+F 0 "R?" H 4470 3146 50  0000 L CNN
+F 1 "10k" H 4470 3055 50  0000 L CNN
+F 2 "" V 4330 3100 50  0001 C CNN
+F 3 "~" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2950 5500 2950
+Connection ~ 4750 2950
+Wire Wire Line
+	4750 2950 4400 2950
+Connection ~ 5150 2950
+Wire Wire Line
+	5150 2950 4750 2950
+Connection ~ 5500 2950
+Wire Wire Line
+	5500 2950 5150 2950
+Wire Wire Line
+	6100 3250 5850 3250
+Wire Wire Line
+	6100 3350 5500 3350
+Wire Wire Line
+	6100 3450 5150 3450
+Wire Wire Line
+	6100 3550 4250 3550
+Wire Wire Line
+	4250 3550 4250 2950
+Wire Wire Line
+	4400 2950 4250 2950
+Connection ~ 4400 2950
+Text GLabel 4150 2950 0    50   Input ~ 0
+PPA3V3
+Wire Wire Line
+	4250 2950 4150 2950
+Connection ~ 4250 2950
+Wire Wire Line
+	6100 3650 4100 3650
+Wire Wire Line
+	6100 3850 4750 3850
+Wire Wire Line
+	5500 3250 5500 3350
+Connection ~ 5500 3350
+Wire Wire Line
+	5500 3350 4100 3350
+Wire Wire Line
+	5150 3250 5150 3450
+Connection ~ 5150 3450
+Wire Wire Line
+	5150 3450 4100 3450
+Wire Wire Line
+	4750 3250 4750 3850
+Connection ~ 4750 3850
+Wire Wire Line
+	4750 3850 4100 3850
+Wire Wire Line
+	4400 3250 4400 3950
+Wire Wire Line
+	4400 3950 6100 3950
+$Comp
+L Device:C C?
+U 1 1 5CCB3F71
+P 4250 4100
+F 0 "C?" H 4365 4146 50  0000 L CNN
+F 1 "100n" H 4365 4055 50  0000 L CNN
+F 2 "" H 4288 3950 50  0001 C CNN
+F 3 "~" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3950 4250 3550
+Connection ~ 4250 3550
+Wire Wire Line
+	7800 4550 7800 4500
+Wire Wire Line
+	7800 4500 6000 4500
+Wire Wire Line
+	4250 4500 4250 4250
+Connection ~ 7800 4500
+Wire Wire Line
+	7800 4500 7800 4450
+Wire Wire Line
+	6100 3750 6000 3750
+Wire Wire Line
+	6000 3750 6000 4500
+Connection ~ 6000 4500
+Wire Wire Line
+	6000 4500 4250 4500
+Text HLabel 4100 3350 0    50   Input ~ 0
+SD-CS
+Text HLabel 4100 3450 0    50   Input ~ 0
+SD-MOSI
+Text HLabel 4100 3650 0    50   Input ~ 0
+SD-SCK
+Text HLabel 4100 3850 0    50   Output ~ 0
+SD-MISO
+$EndSCHEMATC

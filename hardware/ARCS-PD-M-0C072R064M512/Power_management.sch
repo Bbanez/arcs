@@ -1,0 +1,585 @@
+EESchema Schematic File Version 4
+LIBS:ARCS-PD-M-0C072R064M512-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title "ARCS-PD-M-0C072R064M512"
+Date "2019-03-28"
+Rev "1.0"
+Comp "Cohesion"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM7812_TO220 U?
+U 1 1 5C602CDD
+P 3600 1200
+F 0 "U?" H 3600 1442 50  0000 C CNN
+F 1 "LM7812_TO220" H 3600 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3600 1425 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3600 1150 50  0001 C CNN
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5C602E7F
+P 1400 1250
+F 0 "J?" H 1455 1475 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1455 1476 50  0001 C CNN
+F 2 "" H 1450 1210 50  0001 C CNN
+F 3 "~" H 1450 1210 50  0001 C CNN
+	1    1400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C602FE8
+P 2100 1300
+F 0 "C?" H 2218 1346 50  0000 L CNN
+F 1 "330u" H 2218 1255 50  0000 L CNN
+F 2 "" H 2138 1150 50  0001 C CNN
+F 3 "~" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C603061
+P 2550 1300
+F 0 "C?" H 2665 1346 50  0000 L CNN
+F 1 "10u" H 2665 1255 50  0000 L CNN
+F 2 "" H 2588 1150 50  0001 C CNN
+F 3 "~" H 2550 1300 50  0001 C CNN
+	1    2550 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1700 1250
+$Comp
+L power:+24V #PWR?
+U 1 1 5C6031D4
+P 2550 1150
+F 0 "#PWR?" H 2550 1000 50  0001 C CNN
+F 1 "+24V" H 2565 1323 50  0000 C CNN
+F 2 "" H 2550 1150 50  0001 C CNN
+F 3 "" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C603256
+P 2550 1450
+F 0 "#PWR?" H 2550 1200 50  0001 C CNN
+F 1 "Earth" H 2550 1300 50  0001 C CNN
+F 2 "" H 2550 1450 50  0001 C CNN
+F 3 "~" H 2550 1450 50  0001 C CNN
+	1    2550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1450 2100 1450
+Wire Wire Line
+	1700 1450 1700 1350
+Connection ~ 2550 1450
+Connection ~ 2100 1450
+Wire Wire Line
+	2100 1450 1700 1450
+Wire Wire Line
+	1700 1150 2100 1150
+Connection ~ 2550 1150
+Connection ~ 2100 1150
+Wire Wire Line
+	2100 1150 2550 1150
+$Comp
+L power:Earth #PWR?
+U 1 1 5C603418
+P 3600 1500
+F 0 "#PWR?" H 3600 1250 50  0001 C CNN
+F 1 "Earth" H 3600 1350 50  0001 C CNN
+F 2 "" H 3600 1500 50  0001 C CNN
+F 3 "~" H 3600 1500 50  0001 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C603437
+P 4000 1350
+F 0 "C?" H 4118 1396 50  0000 L CNN
+F 1 "47u" H 4118 1305 50  0000 L CNN
+F 2 "" H 4038 1200 50  0001 C CNN
+F 3 "~" H 4000 1350 50  0001 C CNN
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C6034B8
+P 4400 1350
+F 0 "C?" H 4515 1396 50  0000 L CNN
+F 1 "10u" H 4515 1305 50  0000 L CNN
+F 2 "" H 4438 1200 50  0001 C CNN
+F 3 "~" H 4400 1350 50  0001 C CNN
+	1    4400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C6034FC
+P 4800 1350
+F 0 "C?" H 4915 1396 50  0000 L CNN
+F 1 "4.7u" H 4915 1305 50  0000 L CNN
+F 2 "" H 4838 1200 50  0001 C CNN
+F 3 "~" H 4800 1350 50  0001 C CNN
+	1    4800 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1200 4400 1200
+Connection ~ 4000 1200
+Wire Wire Line
+	4000 1200 3900 1200
+Connection ~ 4400 1200
+Wire Wire Line
+	4400 1200 4000 1200
+Wire Wire Line
+	4800 1500 4400 1500
+Connection ~ 3600 1500
+Connection ~ 4000 1500
+Wire Wire Line
+	4000 1500 3600 1500
+Connection ~ 4400 1500
+Wire Wire Line
+	4400 1500 4000 1500
+$Comp
+L power:+24V #PWR?
+U 1 1 5C6035E0
+P 3300 1200
+F 0 "#PWR?" H 3300 1050 50  0001 C CNN
+F 1 "+24V" V 3315 1328 50  0000 L CNN
+F 2 "" H 3300 1200 50  0001 C CNN
+F 3 "" H 3300 1200 50  0001 C CNN
+	1    3300 1200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4550 1100 2    50   Output ~ 0
+PPA12V
+Wire Wire Line
+	4550 1100 4400 1100
+Wire Wire Line
+	4400 1100 4400 1200
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 5C60389F
+P 5800 1200
+F 0 "U?" H 5800 1442 50  0000 C CNN
+F 1 "AMS1117-5.0" H 5800 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5800 1400 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5900 950 50  0001 C CNN
+	1    5800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C603A15
+P 6200 1350
+F 0 "C?" H 6318 1396 50  0000 L CNN
+F 1 "47u" H 6318 1305 50  0000 L CNN
+F 2 "" H 6238 1200 50  0001 C CNN
+F 3 "~" H 6200 1350 50  0001 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C603A57
+P 6600 1350
+F 0 "C?" H 6715 1396 50  0000 L CNN
+F 1 "10u" H 6715 1305 50  0000 L CNN
+F 2 "" H 6638 1200 50  0001 C CNN
+F 3 "~" H 6600 1350 50  0001 C CNN
+	1    6600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C603A99
+P 7000 1350
+F 0 "C?" H 7115 1396 50  0000 L CNN
+F 1 "4.7u" H 7115 1305 50  0000 L CNN
+F 2 "" H 7038 1200 50  0001 C CNN
+F 3 "~" H 7000 1350 50  0001 C CNN
+	1    7000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1200 6600 1200
+Connection ~ 6200 1200
+Wire Wire Line
+	6200 1200 6100 1200
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 6200 1200
+Wire Wire Line
+	7000 1500 6600 1500
+Connection ~ 6200 1500
+Wire Wire Line
+	6200 1500 5800 1500
+Connection ~ 6600 1500
+Wire Wire Line
+	6600 1500 6200 1500
+$Comp
+L power:Earth #PWR?
+U 1 1 5C603D73
+P 5800 1500
+F 0 "#PWR?" H 5800 1250 50  0001 C CNN
+F 1 "Earth" H 5800 1350 50  0001 C CNN
+F 2 "" H 5800 1500 50  0001 C CNN
+F 3 "~" H 5800 1500 50  0001 C CNN
+	1    5800 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 1500
+Text GLabel 6750 1100 2    50   Output ~ 0
+PPA5V
+Wire Wire Line
+	6750 1100 6600 1100
+Wire Wire Line
+	6600 1100 6600 1200
+Text GLabel 5500 1200 0    50   Input ~ 0
+PPA12V
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 5C6043FD
+P 8000 1200
+F 0 "U?" H 8000 1442 50  0000 C CNN
+F 1 "AMS1117-5.0" H 8000 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8000 1400 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8100 950 50  0001 C CNN
+	1    8000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C604404
+P 8400 1350
+F 0 "C?" H 8518 1396 50  0000 L CNN
+F 1 "47u" H 8518 1305 50  0000 L CNN
+F 2 "" H 8438 1200 50  0001 C CNN
+F 3 "~" H 8400 1350 50  0001 C CNN
+	1    8400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C60440B
+P 8800 1350
+F 0 "C?" H 8915 1396 50  0000 L CNN
+F 1 "10u" H 8915 1305 50  0000 L CNN
+F 2 "" H 8838 1200 50  0001 C CNN
+F 3 "~" H 8800 1350 50  0001 C CNN
+	1    8800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C604412
+P 9200 1350
+F 0 "C?" H 9315 1396 50  0000 L CNN
+F 1 "4.7u" H 9315 1305 50  0000 L CNN
+F 2 "" H 9238 1200 50  0001 C CNN
+F 3 "~" H 9200 1350 50  0001 C CNN
+	1    9200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1200 8800 1200
+Connection ~ 8400 1200
+Wire Wire Line
+	8400 1200 8300 1200
+Connection ~ 8800 1200
+Wire Wire Line
+	8800 1200 8400 1200
+Wire Wire Line
+	9200 1500 8800 1500
+Connection ~ 8400 1500
+Wire Wire Line
+	8400 1500 8000 1500
+Connection ~ 8800 1500
+Wire Wire Line
+	8800 1500 8400 1500
+$Comp
+L power:Earth #PWR?
+U 1 1 5C604423
+P 8000 1500
+F 0 "#PWR?" H 8000 1250 50  0001 C CNN
+F 1 "Earth" H 8000 1350 50  0001 C CNN
+F 2 "" H 8000 1500 50  0001 C CNN
+F 3 "~" H 8000 1500 50  0001 C CNN
+	1    8000 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 1500
+Text GLabel 8950 1100 2    50   Output ~ 0
+PPA3V3
+Wire Wire Line
+	8950 1100 8800 1100
+Wire Wire Line
+	8800 1100 8800 1200
+Text GLabel 7700 1200 0    50   Input ~ 0
+PPB12V
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 5C8A908D
+P 5800 1950
+F 0 "U?" H 5800 2192 50  0000 C CNN
+F 1 "AMS1117-5.0" H 5800 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5800 2150 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5900 1700 50  0001 C CNN
+	1    5800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C8A9094
+P 6200 2100
+F 0 "C?" H 6318 2146 50  0000 L CNN
+F 1 "47u" H 6318 2055 50  0000 L CNN
+F 2 "" H 6238 1950 50  0001 C CNN
+F 3 "~" H 6200 2100 50  0001 C CNN
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8A909B
+P 6600 2100
+F 0 "C?" H 6715 2146 50  0000 L CNN
+F 1 "10u" H 6715 2055 50  0000 L CNN
+F 2 "" H 6638 1950 50  0001 C CNN
+F 3 "~" H 6600 2100 50  0001 C CNN
+	1    6600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8A90A2
+P 7000 2100
+F 0 "C?" H 7115 2146 50  0000 L CNN
+F 1 "4.7u" H 7115 2055 50  0000 L CNN
+F 2 "" H 7038 1950 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1950 6600 1950
+Connection ~ 6200 1950
+Wire Wire Line
+	6200 1950 6100 1950
+Connection ~ 6600 1950
+Wire Wire Line
+	6600 1950 6200 1950
+Wire Wire Line
+	7000 2250 6600 2250
+Connection ~ 6200 2250
+Wire Wire Line
+	6200 2250 5800 2250
+Connection ~ 6600 2250
+Wire Wire Line
+	6600 2250 6200 2250
+$Comp
+L power:Earth #PWR?
+U 1 1 5C8A90B3
+P 5800 2250
+F 0 "#PWR?" H 5800 2000 50  0001 C CNN
+F 1 "Earth" H 5800 2100 50  0001 C CNN
+F 2 "" H 5800 2250 50  0001 C CNN
+F 3 "~" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2250
+Text GLabel 6750 1850 2    50   Output ~ 0
+PPB5V
+Wire Wire Line
+	6750 1850 6600 1850
+Wire Wire Line
+	6600 1850 6600 1950
+Text GLabel 5500 1950 0    50   Input ~ 0
+PPA12V
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 5C8AE567
+P 8000 1950
+F 0 "U?" H 8000 2192 50  0000 C CNN
+F 1 "AMS1117-5.0" H 8000 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8000 2150 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8100 1700 50  0001 C CNN
+	1    8000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C8AE56E
+P 8400 2100
+F 0 "C?" H 8518 2146 50  0000 L CNN
+F 1 "47u" H 8518 2055 50  0000 L CNN
+F 2 "" H 8438 1950 50  0001 C CNN
+F 3 "~" H 8400 2100 50  0001 C CNN
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8AE575
+P 8800 2100
+F 0 "C?" H 8915 2146 50  0000 L CNN
+F 1 "10u" H 8915 2055 50  0000 L CNN
+F 2 "" H 8838 1950 50  0001 C CNN
+F 3 "~" H 8800 2100 50  0001 C CNN
+	1    8800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8AE57C
+P 9200 2100
+F 0 "C?" H 9315 2146 50  0000 L CNN
+F 1 "4.7u" H 9315 2055 50  0000 L CNN
+F 2 "" H 9238 1950 50  0001 C CNN
+F 3 "~" H 9200 2100 50  0001 C CNN
+	1    9200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1950 8800 1950
+Connection ~ 8400 1950
+Wire Wire Line
+	8400 1950 8300 1950
+Connection ~ 8800 1950
+Wire Wire Line
+	8800 1950 8400 1950
+Wire Wire Line
+	9200 2250 8800 2250
+Connection ~ 8400 2250
+Wire Wire Line
+	8400 2250 8000 2250
+Connection ~ 8800 2250
+Wire Wire Line
+	8800 2250 8400 2250
+$Comp
+L power:Earth #PWR?
+U 1 1 5C8AE58D
+P 8000 2250
+F 0 "#PWR?" H 8000 2000 50  0001 C CNN
+F 1 "Earth" H 8000 2100 50  0001 C CNN
+F 2 "" H 8000 2250 50  0001 C CNN
+F 3 "~" H 8000 2250 50  0001 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 2250
+Text GLabel 8950 1850 2    50   Output ~ 0
+PPB3V3
+Wire Wire Line
+	8950 1850 8800 1850
+Wire Wire Line
+	8800 1850 8800 1950
+Text GLabel 7700 1950 0    50   Input ~ 0
+PPB12V
+$Comp
+L Regulator_Linear:LM7812_TO220 U?
+U 1 1 5C8AF11F
+P 3600 1950
+F 0 "U?" H 3600 2192 50  0000 C CNN
+F 1 "LM7812_TO220" H 3600 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3600 2175 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3600 1900 50  0001 C CNN
+	1    3600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C8AF126
+P 3600 2250
+F 0 "#PWR?" H 3600 2000 50  0001 C CNN
+F 1 "Earth" H 3600 2100 50  0001 C CNN
+F 2 "" H 3600 2250 50  0001 C CNN
+F 3 "~" H 3600 2250 50  0001 C CNN
+	1    3600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C8AF12C
+P 4000 2100
+F 0 "C?" H 4118 2146 50  0000 L CNN
+F 1 "47u" H 4118 2055 50  0000 L CNN
+F 2 "" H 4038 1950 50  0001 C CNN
+F 3 "~" H 4000 2100 50  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8AF133
+P 4400 2100
+F 0 "C?" H 4515 2146 50  0000 L CNN
+F 1 "10u" H 4515 2055 50  0000 L CNN
+F 2 "" H 4438 1950 50  0001 C CNN
+F 3 "~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8AF13A
+P 4800 2100
+F 0 "C?" H 4915 2146 50  0000 L CNN
+F 1 "4.7u" H 4915 2055 50  0000 L CNN
+F 2 "" H 4838 1950 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1950 4400 1950
+Connection ~ 4000 1950
+Wire Wire Line
+	4000 1950 3900 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 4000 1950
+Wire Wire Line
+	4800 2250 4400 2250
+Connection ~ 3600 2250
+Connection ~ 4000 2250
+Wire Wire Line
+	4000 2250 3600 2250
+Connection ~ 4400 2250
+Wire Wire Line
+	4400 2250 4000 2250
+$Comp
+L power:+24V #PWR?
+U 1 1 5C8AF14C
+P 3300 1950
+F 0 "#PWR?" H 3300 1800 50  0001 C CNN
+F 1 "+24V" V 3315 2078 50  0000 L CNN
+F 2 "" H 3300 1950 50  0001 C CNN
+F 3 "" H 3300 1950 50  0001 C CNN
+	1    3300 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4550 1850 2    50   Output ~ 0
+PPB12V
+Wire Wire Line
+	4550 1850 4400 1850
+Wire Wire Line
+	4400 1850 4400 1950
+$EndSCHEMATC

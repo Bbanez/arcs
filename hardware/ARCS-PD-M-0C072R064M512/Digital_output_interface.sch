@@ -1,0 +1,2118 @@
+EESchema Schematic File Version 4
+LIBS:ARCS-PD-M-0C072R064M512-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title "ARCS-PD-M-0C072R064M512"
+Date "2019-03-28"
+Rev "1.0"
+Comp "Cohesion"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5C6A2B86
+P 9550 1050
+F 0 "U?" H 9550 1417 50  0000 C CNN
+F 1 "LM358" H 9550 1326 50  0000 C CNN
+F 2 "" H 9550 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9550 1050 50  0001 C CNN
+	1    9550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5C6A2C4B
+P 5700 6450
+F 0 "U?" H 5658 6496 50  0000 L CNN
+F 1 "LM358" H 5658 6405 50  0000 L CNN
+F 2 "" H 5700 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5700 6450 50  0001 C CNN
+	3    5700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A30F9
+P 9550 1350
+F 0 "R?" V 9450 1350 50  0000 C CNN
+F 1 "10k" V 9650 1350 50  0000 C CNN
+F 2 "" V 9480 1350 50  0001 C CNN
+F 3 "~" H 9550 1350 50  0001 C CNN
+	1    9550 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A31C8
+P 9250 1550
+F 0 "R?" V 9150 1550 50  0000 C CNN
+F 1 "1k" V 9350 1550 50  0000 C CNN
+F 2 "" V 9180 1550 50  0001 C CNN
+F 3 "~" H 9250 1550 50  0001 C CNN
+	1    9250 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 1400 9250 1350
+Wire Wire Line
+	9400 1350 9250 1350
+Connection ~ 9250 1350
+Wire Wire Line
+	9250 1350 9250 1150
+Wire Wire Line
+	9700 1350 9850 1350
+Wire Wire Line
+	9850 1350 9850 1050
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A32EA
+P 9250 1700
+F 0 "#PWR?" H 9250 1450 50  0001 C CNN
+F 1 "Earth" H 9250 1550 50  0001 C CNN
+F 2 "" H 9250 1700 50  0001 C CNN
+F 3 "~" H 9250 1700 50  0001 C CNN
+	1    9250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A332E
+P 9100 950
+F 0 "R?" V 9000 950 50  0000 C CNN
+F 1 "1k" V 9200 950 50  0000 C CNN
+F 2 "" V 9030 950 50  0001 C CNN
+F 3 "~" H 9100 950 50  0001 C CNN
+	1    9100 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A36A4
+P 9550 2400
+F 0 "R?" V 9450 2400 50  0000 C CNN
+F 1 "10k" V 9650 2400 50  0000 C CNN
+F 2 "" V 9480 2400 50  0001 C CNN
+F 3 "~" H 9550 2400 50  0001 C CNN
+	1    9550 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A36AB
+P 9250 2600
+F 0 "R?" V 9150 2600 50  0000 C CNN
+F 1 "1k" V 9350 2600 50  0000 C CNN
+F 2 "" V 9180 2600 50  0001 C CNN
+F 3 "~" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 2450 9250 2400
+Wire Wire Line
+	9400 2400 9250 2400
+Connection ~ 9250 2400
+Wire Wire Line
+	9250 2400 9250 2200
+Wire Wire Line
+	9700 2400 9850 2400
+Wire Wire Line
+	9850 2400 9850 2100
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A36B8
+P 9250 2750
+F 0 "#PWR?" H 9250 2500 50  0001 C CNN
+F 1 "Earth" H 9250 2600 50  0001 C CNN
+F 2 "" H 9250 2750 50  0001 C CNN
+F 3 "~" H 9250 2750 50  0001 C CNN
+	1    9250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A36BE
+P 9100 2000
+F 0 "R?" V 9000 2000 50  0000 C CNN
+F 1 "1k" V 9200 2000 50  0000 C CNN
+F 2 "" V 9030 2000 50  0001 C CNN
+F 3 "~" H 9100 2000 50  0001 C CNN
+	1    9100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 5C6A3790
+P 9550 2100
+F 0 "U?" H 9550 2467 50  0000 C CNN
+F 1 "LM358" H 9550 2376 50  0000 C CNN
+F 2 "" H 9550 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9550 2100 50  0001 C CNN
+	2    9550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5C6A3D9F
+P 9550 3150
+F 0 "U?" H 9550 3517 50  0000 C CNN
+F 1 "LM358" H 9550 3426 50  0000 C CNN
+F 2 "" H 9550 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9550 3150 50  0001 C CNN
+	1    9550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DA6
+P 9550 3450
+F 0 "R?" V 9450 3450 50  0000 C CNN
+F 1 "10k" V 9650 3450 50  0000 C CNN
+F 2 "" V 9480 3450 50  0001 C CNN
+F 3 "~" H 9550 3450 50  0001 C CNN
+	1    9550 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DAD
+P 9250 3650
+F 0 "R?" V 9150 3650 50  0000 C CNN
+F 1 "1k" V 9350 3650 50  0000 C CNN
+F 2 "" V 9180 3650 50  0001 C CNN
+F 3 "~" H 9250 3650 50  0001 C CNN
+	1    9250 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 3500 9250 3450
+Wire Wire Line
+	9400 3450 9250 3450
+Connection ~ 9250 3450
+Wire Wire Line
+	9250 3450 9250 3250
+Wire Wire Line
+	9700 3450 9850 3450
+Wire Wire Line
+	9850 3450 9850 3150
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A3DBA
+P 9250 3800
+F 0 "#PWR?" H 9250 3550 50  0001 C CNN
+F 1 "Earth" H 9250 3650 50  0001 C CNN
+F 2 "" H 9250 3800 50  0001 C CNN
+F 3 "~" H 9250 3800 50  0001 C CNN
+	1    9250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DC0
+P 9100 3050
+F 0 "R?" V 9000 3050 50  0000 C CNN
+F 1 "1k" V 9200 3050 50  0000 C CNN
+F 2 "" V 9030 3050 50  0001 C CNN
+F 3 "~" H 9100 3050 50  0001 C CNN
+	1    9100 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DC9
+P 9550 4500
+F 0 "R?" V 9450 4500 50  0000 C CNN
+F 1 "10k" V 9650 4500 50  0000 C CNN
+F 2 "" V 9480 4500 50  0001 C CNN
+F 3 "~" H 9550 4500 50  0001 C CNN
+	1    9550 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DD0
+P 9250 4700
+F 0 "R?" V 9150 4700 50  0000 C CNN
+F 1 "1k" V 9350 4700 50  0000 C CNN
+F 2 "" V 9180 4700 50  0001 C CNN
+F 3 "~" H 9250 4700 50  0001 C CNN
+	1    9250 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 4550 9250 4500
+Wire Wire Line
+	9400 4500 9250 4500
+Connection ~ 9250 4500
+Wire Wire Line
+	9250 4500 9250 4300
+Wire Wire Line
+	9700 4500 9850 4500
+Wire Wire Line
+	9850 4500 9850 4200
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A3DDD
+P 9250 4850
+F 0 "#PWR?" H 9250 4600 50  0001 C CNN
+F 1 "Earth" H 9250 4700 50  0001 C CNN
+F 2 "" H 9250 4850 50  0001 C CNN
+F 3 "~" H 9250 4850 50  0001 C CNN
+	1    9250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A3DE3
+P 9100 4100
+F 0 "R?" V 9000 4100 50  0000 C CNN
+F 1 "1k" V 9200 4100 50  0000 C CNN
+F 2 "" V 9030 4100 50  0001 C CNN
+F 3 "~" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 5C6A3DEC
+P 9550 4200
+F 0 "U?" H 9550 4567 50  0000 C CNN
+F 1 "LM358" H 9550 4476 50  0000 C CNN
+F 2 "" H 9550 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9550 4200 50  0001 C CNN
+	2    9550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5C6A4DEF
+P 7650 1050
+F 0 "U?" H 7650 1417 50  0000 C CNN
+F 1 "LM358" H 7650 1326 50  0000 C CNN
+F 2 "" H 7650 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 1050 50  0001 C CNN
+	1    7650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4DF6
+P 7650 1350
+F 0 "R?" V 7550 1350 50  0000 C CNN
+F 1 "10k" V 7750 1350 50  0000 C CNN
+F 2 "" V 7580 1350 50  0001 C CNN
+F 3 "~" H 7650 1350 50  0001 C CNN
+	1    7650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4DFD
+P 7350 1550
+F 0 "R?" V 7250 1550 50  0000 C CNN
+F 1 "1k" V 7450 1550 50  0000 C CNN
+F 2 "" V 7280 1550 50  0001 C CNN
+F 3 "~" H 7350 1550 50  0001 C CNN
+	1    7350 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 1400 7350 1350
+Wire Wire Line
+	7500 1350 7350 1350
+Connection ~ 7350 1350
+Wire Wire Line
+	7350 1350 7350 1150
+Wire Wire Line
+	7800 1350 7950 1350
+Wire Wire Line
+	7950 1350 7950 1050
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A4E0A
+P 7350 1700
+F 0 "#PWR?" H 7350 1450 50  0001 C CNN
+F 1 "Earth" H 7350 1550 50  0001 C CNN
+F 2 "" H 7350 1700 50  0001 C CNN
+F 3 "~" H 7350 1700 50  0001 C CNN
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E10
+P 7200 950
+F 0 "R?" V 7100 950 50  0000 C CNN
+F 1 "1k" V 7300 950 50  0000 C CNN
+F 2 "" V 7130 950 50  0001 C CNN
+F 3 "~" H 7200 950 50  0001 C CNN
+	1    7200 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E19
+P 7650 2400
+F 0 "R?" V 7550 2400 50  0000 C CNN
+F 1 "10k" V 7750 2400 50  0000 C CNN
+F 2 "" V 7580 2400 50  0001 C CNN
+F 3 "~" H 7650 2400 50  0001 C CNN
+	1    7650 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E20
+P 7350 2600
+F 0 "R?" V 7250 2600 50  0000 C CNN
+F 1 "1k" V 7450 2600 50  0000 C CNN
+F 2 "" V 7280 2600 50  0001 C CNN
+F 3 "~" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 2450 7350 2400
+Wire Wire Line
+	7500 2400 7350 2400
+Connection ~ 7350 2400
+Wire Wire Line
+	7350 2400 7350 2200
+Wire Wire Line
+	7800 2400 7950 2400
+Wire Wire Line
+	7950 2400 7950 2100
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A4E2D
+P 7350 2750
+F 0 "#PWR?" H 7350 2500 50  0001 C CNN
+F 1 "Earth" H 7350 2600 50  0001 C CNN
+F 2 "" H 7350 2750 50  0001 C CNN
+F 3 "~" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E33
+P 7200 2000
+F 0 "R?" V 7100 2000 50  0000 C CNN
+F 1 "1k" V 7300 2000 50  0000 C CNN
+F 2 "" V 7130 2000 50  0001 C CNN
+F 3 "~" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 5C6A4E3C
+P 7650 2100
+F 0 "U?" H 7650 2467 50  0000 C CNN
+F 1 "LM358" H 7650 2376 50  0000 C CNN
+F 2 "" H 7650 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 2100 50  0001 C CNN
+	2    7650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5C6A4E43
+P 7650 3150
+F 0 "U?" H 7650 3517 50  0000 C CNN
+F 1 "LM358" H 7650 3426 50  0000 C CNN
+F 2 "" H 7650 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 3150 50  0001 C CNN
+	1    7650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E4A
+P 7650 3450
+F 0 "R?" V 7550 3450 50  0000 C CNN
+F 1 "10k" V 7750 3450 50  0000 C CNN
+F 2 "" V 7580 3450 50  0001 C CNN
+F 3 "~" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E51
+P 7350 3650
+F 0 "R?" V 7250 3650 50  0000 C CNN
+F 1 "1k" V 7450 3650 50  0000 C CNN
+F 2 "" V 7280 3650 50  0001 C CNN
+F 3 "~" H 7350 3650 50  0001 C CNN
+	1    7350 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3500 7350 3450
+Wire Wire Line
+	7500 3450 7350 3450
+Connection ~ 7350 3450
+Wire Wire Line
+	7350 3450 7350 3250
+Wire Wire Line
+	7800 3450 7950 3450
+Wire Wire Line
+	7950 3450 7950 3150
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A4E5E
+P 7350 3800
+F 0 "#PWR?" H 7350 3550 50  0001 C CNN
+F 1 "Earth" H 7350 3650 50  0001 C CNN
+F 2 "" H 7350 3800 50  0001 C CNN
+F 3 "~" H 7350 3800 50  0001 C CNN
+	1    7350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E64
+P 7200 3050
+F 0 "R?" V 7100 3050 50  0000 C CNN
+F 1 "1k" V 7300 3050 50  0000 C CNN
+F 2 "" V 7130 3050 50  0001 C CNN
+F 3 "~" H 7200 3050 50  0001 C CNN
+	1    7200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E6D
+P 7650 4500
+F 0 "R?" V 7550 4500 50  0000 C CNN
+F 1 "10k" V 7750 4500 50  0000 C CNN
+F 2 "" V 7580 4500 50  0001 C CNN
+F 3 "~" H 7650 4500 50  0001 C CNN
+	1    7650 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E74
+P 7350 4700
+F 0 "R?" V 7250 4700 50  0000 C CNN
+F 1 "1k" V 7450 4700 50  0000 C CNN
+F 2 "" V 7280 4700 50  0001 C CNN
+F 3 "~" H 7350 4700 50  0001 C CNN
+	1    7350 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 4550 7350 4500
+Wire Wire Line
+	7500 4500 7350 4500
+Connection ~ 7350 4500
+Wire Wire Line
+	7350 4500 7350 4300
+Wire Wire Line
+	7800 4500 7950 4500
+Wire Wire Line
+	7950 4500 7950 4200
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6A4E81
+P 7350 4850
+F 0 "#PWR?" H 7350 4600 50  0001 C CNN
+F 1 "Earth" H 7350 4700 50  0001 C CNN
+F 2 "" H 7350 4850 50  0001 C CNN
+F 3 "~" H 7350 4850 50  0001 C CNN
+	1    7350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6A4E87
+P 7200 4100
+F 0 "R?" V 7100 4100 50  0000 C CNN
+F 1 "1k" V 7300 4100 50  0000 C CNN
+F 2 "" V 7130 4100 50  0001 C CNN
+F 3 "~" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 5C6A4E90
+P 7650 4200
+F 0 "U?" H 7650 4567 50  0000 C CNN
+F 1 "LM358" H 7650 4476 50  0000 C CNN
+F 2 "" H 7650 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 4200 50  0001 C CNN
+	2    7650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS573 U?
+U 1 1 5C6A841F
+P 2350 6550
+F 0 "U?" H 2600 7350 50  0000 C CNN
+F 1 "74HC573" H 2600 7250 50  0000 C CNN
+F 2 "" H 2350 6550 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 2350 6550 50  0001 C CNN
+	1    2350 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6050 2850 5700
+Wire Wire Line
+	2850 5700 1800 5700
+Wire Wire Line
+	1800 5700 1800 6150
+Wire Wire Line
+	1800 6150 1850 6150
+Wire Wire Line
+	2850 6150 2900 6150
+Wire Wire Line
+	2900 6150 2900 5650
+Wire Wire Line
+	2900 5650 1750 5650
+Wire Wire Line
+	1750 5650 1750 6250
+Wire Wire Line
+	1750 6250 1850 6250
+Wire Wire Line
+	2850 6250 2950 6250
+Wire Wire Line
+	2950 6250 2950 5600
+Wire Wire Line
+	2950 5600 1700 5600
+Wire Wire Line
+	1700 5600 1700 6350
+Wire Wire Line
+	1700 6350 1850 6350
+Wire Wire Line
+	2850 6350 3000 6350
+Wire Wire Line
+	3000 6350 3000 5550
+Wire Wire Line
+	3000 5550 1650 5550
+Wire Wire Line
+	1650 5550 1650 6450
+Wire Wire Line
+	1650 6450 1850 6450
+Wire Wire Line
+	2850 6450 3050 6450
+Wire Wire Line
+	3050 6450 3050 5500
+Wire Wire Line
+	3050 5500 1600 5500
+Wire Wire Line
+	1600 5500 1600 6550
+Wire Wire Line
+	1600 6550 1850 6550
+Wire Wire Line
+	2850 6550 3100 6550
+Wire Wire Line
+	3100 6550 3100 5450
+Wire Wire Line
+	3100 5450 1550 5450
+Wire Wire Line
+	1550 5450 1550 6650
+Wire Wire Line
+	1550 6650 1850 6650
+Wire Wire Line
+	2850 6650 3150 6650
+Wire Wire Line
+	3150 6650 3150 5400
+Wire Wire Line
+	3150 5400 1500 5400
+Wire Wire Line
+	1500 5400 1500 6750
+Wire Wire Line
+	1500 6750 1850 6750
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6B3033
+P 2350 7350
+F 0 "#PWR?" H 2350 7100 50  0001 C CNN
+F 1 "Earth" H 2350 7200 50  0001 C CNN
+F 2 "" H 2350 7350 50  0001 C CNN
+F 3 "~" H 2350 7350 50  0001 C CNN
+	1    2350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 7350 1850 7350
+Wire Wire Line
+	1850 7350 1850 7050
+Connection ~ 2350 7350
+Text Label 1500 6950 0    50   ~ 0
+SHIFT-IN
+Text Label 1100 6050 0    50   ~ 0
+SET-BIT
+$Comp
+L 74xx:74LS573 U?
+U 1 1 5C6BAD55
+P 3700 6550
+F 0 "U?" H 3950 7350 50  0000 C CNN
+F 1 "74HC573" H 3950 7250 50  0000 C CNN
+F 2 "" H 3700 6550 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 3700 6550 50  0001 C CNN
+	1    3700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7350 3200 7350
+Wire Wire Line
+	3200 7350 3200 7050
+$Comp
+L Device:C C?
+U 1 1 5C6BD75C
+P 1250 5700
+F 0 "C?" H 1300 5800 50  0000 L CNN
+F 1 "100n" H 1300 5600 50  0000 L CNN
+F 2 "" H 1288 5550 50  0001 C CNN
+F 3 "~" H 1250 5700 50  0001 C CNN
+	1    1250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5550 1250 5350
+Wire Wire Line
+	1250 5350 2350 5350
+Wire Wire Line
+	2350 5350 2350 5750
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6C0CCA
+P 1250 5850
+F 0 "#PWR?" H 1250 5600 50  0001 C CNN
+F 1 "Earth" H 1250 5700 50  0001 C CNN
+F 2 "" H 1250 5850 50  0001 C CNN
+F 3 "~" H 1250 5850 50  0001 C CNN
+	1    1250 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 5350 0    50   Input ~ 0
+PPB5V
+Wire Wire Line
+	1200 5350 1250 5350
+Connection ~ 1250 5350
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6C6FEA
+P 3700 7350
+F 0 "#PWR?" H 3700 7100 50  0001 C CNN
+F 1 "Earth" H 3700 7200 50  0001 C CNN
+F 2 "" H 3700 7350 50  0001 C CNN
+F 3 "~" H 3700 7350 50  0001 C CNN
+	1    3700 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 7350
+Text Label 2950 6950 0    50   ~ 0
+PUSH
+Wire Wire Line
+	3200 6950 2850 6950
+Wire Wire Line
+	2850 6050 3200 6050
+Connection ~ 2850 6050
+Wire Wire Line
+	2900 6150 3200 6150
+Connection ~ 2900 6150
+Wire Wire Line
+	2950 6250 3200 6250
+Connection ~ 2950 6250
+Wire Wire Line
+	3000 6350 3200 6350
+Connection ~ 3000 6350
+Wire Wire Line
+	3050 6450 3200 6450
+Connection ~ 3050 6450
+Wire Wire Line
+	3100 6550 3200 6550
+Connection ~ 3100 6550
+Wire Wire Line
+	3150 6650 3200 6650
+Connection ~ 3150 6650
+Wire Wire Line
+	2850 6750 3200 6750
+Wire Wire Line
+	2350 5350 3300 5350
+Wire Wire Line
+	3700 5350 3700 5750
+Connection ~ 2350 5350
+$Comp
+L Device:C C?
+U 1 1 5C6E6C98
+P 3300 5700
+F 0 "C?" H 3350 5800 50  0000 L CNN
+F 1 "100n" H 3350 5600 50  0000 L CNN
+F 2 "" H 3338 5550 50  0001 C CNN
+F 3 "~" H 3300 5700 50  0001 C CNN
+	1    3300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5550 3300 5350
+Connection ~ 3300 5350
+Wire Wire Line
+	3300 5350 3700 5350
+$Comp
+L power:Earth #PWR?
+U 1 1 5C6EA59B
+P 3300 5850
+F 0 "#PWR?" H 3300 5600 50  0001 C CNN
+F 1 "Earth" H 3300 5700 50  0001 C CNN
+F 2 "" H 3300 5850 50  0001 C CNN
+F 3 "~" H 3300 5850 50  0001 C CNN
+	1    3300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 1 1 5C6F2418
+P 3450 950
+F 0 "U?" H 3450 1275 50  0000 C CNN
+F 1 "74HC86" H 3450 1184 50  0000 C CNN
+F 2 "" H 3450 950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 950 50  0001 C CNN
+	1    3450 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6F26C2
+P 4300 850
+F 0 "R?" V 4093 850 50  0000 C CNN
+F 1 "10k" V 4184 850 50  0000 C CNN
+F 2 "" V 4230 850 50  0001 C CNN
+F 3 "~" H 4300 850 50  0001 C CNN
+	1    4300 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6F27DF
+P 4100 1050
+F 0 "R?" H 4030 1004 50  0000 R CNN
+F 1 "1k" H 4030 1095 50  0000 R CNN
+F 2 "" V 4030 1050 50  0001 C CNN
+F 3 "~" H 4100 1050 50  0001 C CNN
+	1    4100 1050
+	-1   0    0    1   
+$EndComp
+Text Label 4600 850  2    50   ~ 0
+O1
+Wire Wire Line
+	4450 850  4600 850 
+Text Label 3900 1050 2    50   ~ 0
+OI1
+Wire Wire Line
+	3900 1050 3750 1050
+Wire Wire Line
+	4150 850  4100 850 
+Wire Wire Line
+	4100 900  4100 850 
+Connection ~ 4100 850 
+$Comp
+L power:Earth #PWR?
+U 1 1 5C7090CE
+P 4100 1200
+F 0 "#PWR?" H 4100 950 50  0001 C CNN
+F 1 "Earth" H 4100 1050 50  0001 C CNN
+F 2 "" H 4100 1200 50  0001 C CNN
+F 3 "~" H 4100 1200 50  0001 C CNN
+	1    4100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 2 1 5C709351
+P 3450 1500
+F 0 "U?" H 3450 1825 50  0000 C CNN
+F 1 "74HC86" H 3450 1734 50  0000 C CNN
+F 2 "" H 3450 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 1500 50  0001 C CNN
+	2    3450 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C709631
+P 4300 1400
+F 0 "R?" V 4093 1400 50  0000 C CNN
+F 1 "10k" V 4184 1400 50  0000 C CNN
+F 2 "" V 4230 1400 50  0001 C CNN
+F 3 "~" H 4300 1400 50  0001 C CNN
+	1    4300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C709638
+P 4100 1600
+F 0 "R?" H 4030 1554 50  0000 R CNN
+F 1 "1k" H 4030 1645 50  0000 R CNN
+F 2 "" V 4030 1600 50  0001 C CNN
+F 3 "~" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	-1   0    0    1   
+$EndComp
+Text Label 4600 1400 2    50   ~ 0
+O2
+Wire Wire Line
+	4450 1400 4600 1400
+Text Label 3900 1600 2    50   ~ 0
+OI2
+Wire Wire Line
+	3900 1600 3750 1600
+Wire Wire Line
+	4150 1400 4100 1400
+Wire Wire Line
+	4100 1450 4100 1400
+Connection ~ 4100 1400
+$Comp
+L power:Earth #PWR?
+U 1 1 5C709647
+P 4100 1750
+F 0 "#PWR?" H 4100 1500 50  0001 C CNN
+F 1 "Earth" H 4100 1600 50  0001 C CNN
+F 2 "" H 4100 1750 50  0001 C CNN
+F 3 "~" H 4100 1750 50  0001 C CNN
+	1    4100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C70DDB7
+P 4300 1950
+F 0 "R?" V 4093 1950 50  0000 C CNN
+F 1 "10k" V 4184 1950 50  0000 C CNN
+F 2 "" V 4230 1950 50  0001 C CNN
+F 3 "~" H 4300 1950 50  0001 C CNN
+	1    4300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C70DDBE
+P 4100 2150
+F 0 "R?" H 4030 2104 50  0000 R CNN
+F 1 "1k" H 4030 2195 50  0000 R CNN
+F 2 "" V 4030 2150 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	-1   0    0    1   
+$EndComp
+Text Label 4600 1950 2    50   ~ 0
+O3
+Wire Wire Line
+	4450 1950 4600 1950
+Text Label 3900 2150 2    50   ~ 0
+OI3
+Wire Wire Line
+	3900 2150 3750 2150
+Wire Wire Line
+	4150 1950 4100 1950
+Wire Wire Line
+	4100 2000 4100 1950
+Connection ~ 4100 1950
+$Comp
+L power:Earth #PWR?
+U 1 1 5C70DDCD
+P 4100 2300
+F 0 "#PWR?" H 4100 2050 50  0001 C CNN
+F 1 "Earth" H 4100 2150 50  0001 C CNN
+F 2 "" H 4100 2300 50  0001 C CNN
+F 3 "~" H 4100 2300 50  0001 C CNN
+	1    4100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C712780
+P 4300 2500
+F 0 "R?" V 4093 2500 50  0000 C CNN
+F 1 "10k" V 4184 2500 50  0000 C CNN
+F 2 "" V 4230 2500 50  0001 C CNN
+F 3 "~" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C712787
+P 4100 2700
+F 0 "R?" H 4030 2654 50  0000 R CNN
+F 1 "1k" H 4030 2745 50  0000 R CNN
+F 2 "" V 4030 2700 50  0001 C CNN
+F 3 "~" H 4100 2700 50  0001 C CNN
+	1    4100 2700
+	-1   0    0    1   
+$EndComp
+Text Label 4600 2500 2    50   ~ 0
+O4
+Wire Wire Line
+	4450 2500 4600 2500
+Text Label 3900 2700 2    50   ~ 0
+OI4
+Wire Wire Line
+	3900 2700 3750 2700
+Wire Wire Line
+	4150 2500 4100 2500
+Wire Wire Line
+	4100 2550 4100 2500
+Connection ~ 4100 2500
+$Comp
+L power:Earth #PWR?
+U 1 1 5C712796
+P 4100 2850
+F 0 "#PWR?" H 4100 2600 50  0001 C CNN
+F 1 "Earth" H 4100 2700 50  0001 C CNN
+F 2 "" H 4100 2850 50  0001 C CNN
+F 3 "~" H 4100 2850 50  0001 C CNN
+	1    4100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 3 1 5C717A7A
+P 3450 2050
+F 0 "U?" H 3450 2375 50  0000 C CNN
+F 1 "74HC86" H 3450 2284 50  0000 C CNN
+F 2 "" H 3450 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 2050 50  0001 C CNN
+	3    3450 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 4 1 5C717C36
+P 3450 2600
+F 0 "U?" H 3450 2925 50  0000 C CNN
+F 1 "74HC86" H 3450 2834 50  0000 C CNN
+F 2 "" H 3450 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 2600 50  0001 C CNN
+	4    3450 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 5 1 5C71809A
+P 7650 5850
+F 0 "U?" H 7880 5896 50  0000 L CNN
+F 1 "74HC86" H 7880 5805 50  0000 L CNN
+F 2 "" H 7650 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 7650 5850 50  0001 C CNN
+	5    7650 5850
+	1    0    0    -1  
+$EndComp
+Text Label 4350 6050 2    50   ~ 0
+OI1
+Text Label 4350 6150 2    50   ~ 0
+OI2
+Text Label 4350 6250 2    50   ~ 0
+OI3
+Text Label 4350 6350 2    50   ~ 0
+OI4
+Text Label 4350 6450 2    50   ~ 0
+OI5
+Text Label 4350 6550 2    50   ~ 0
+OI6
+Text Label 4350 6650 2    50   ~ 0
+OI7
+Text Label 4350 6750 2    50   ~ 0
+OI8
+Wire Wire Line
+	4200 6050 4350 6050
+Wire Wire Line
+	4350 6150 4200 6150
+Wire Wire Line
+	4200 6250 4350 6250
+Wire Wire Line
+	4350 6350 4200 6350
+Wire Wire Line
+	4200 6450 4350 6450
+Wire Wire Line
+	4350 6550 4200 6550
+Wire Wire Line
+	4200 6650 4350 6650
+Wire Wire Line
+	4350 6750 4200 6750
+$Comp
+L 74xx:74HC86 U?
+U 1 1 5C74DE96
+P 3450 3150
+F 0 "U?" H 3450 3475 50  0000 C CNN
+F 1 "74HC86" H 3450 3384 50  0000 C CNN
+F 2 "" H 3450 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DE9D
+P 4300 3050
+F 0 "R?" V 4093 3050 50  0000 C CNN
+F 1 "10k" V 4184 3050 50  0000 C CNN
+F 2 "" V 4230 3050 50  0001 C CNN
+F 3 "~" H 4300 3050 50  0001 C CNN
+	1    4300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEA4
+P 4100 3250
+F 0 "R?" H 4030 3204 50  0000 R CNN
+F 1 "1k" H 4030 3295 50  0000 R CNN
+F 2 "" V 4030 3250 50  0001 C CNN
+F 3 "~" H 4100 3250 50  0001 C CNN
+	1    4100 3250
+	-1   0    0    1   
+$EndComp
+Text Label 4600 3050 2    50   ~ 0
+O5
+Wire Wire Line
+	4450 3050 4600 3050
+Text Label 3900 3250 2    50   ~ 0
+OI5
+Wire Wire Line
+	4150 3050 4100 3050
+Wire Wire Line
+	4100 3100 4100 3050
+Connection ~ 4100 3050
+$Comp
+L power:Earth #PWR?
+U 1 1 5C74DEB3
+P 4100 3400
+F 0 "#PWR?" H 4100 3150 50  0001 C CNN
+F 1 "Earth" H 4100 3250 50  0001 C CNN
+F 2 "" H 4100 3400 50  0001 C CNN
+F 3 "~" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 2 1 5C74DEB9
+P 3450 3700
+F 0 "U?" H 3450 4025 50  0000 C CNN
+F 1 "74HC86" H 3450 3934 50  0000 C CNN
+F 2 "" H 3450 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 3700 50  0001 C CNN
+	2    3450 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEC0
+P 4300 3600
+F 0 "R?" V 4093 3600 50  0000 C CNN
+F 1 "10k" V 4184 3600 50  0000 C CNN
+F 2 "" V 4230 3600 50  0001 C CNN
+F 3 "~" H 4300 3600 50  0001 C CNN
+	1    4300 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEC7
+P 4100 3800
+F 0 "R?" H 4030 3754 50  0000 R CNN
+F 1 "1k" H 4030 3845 50  0000 R CNN
+F 2 "" V 4030 3800 50  0001 C CNN
+F 3 "~" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	-1   0    0    1   
+$EndComp
+Text Label 4600 3600 2    50   ~ 0
+O6
+Wire Wire Line
+	4450 3600 4600 3600
+Text Label 3900 3800 2    50   ~ 0
+OI6
+Wire Wire Line
+	3900 3800 3750 3800
+Wire Wire Line
+	4150 3600 4100 3600
+Wire Wire Line
+	4100 3650 4100 3600
+Connection ~ 4100 3600
+$Comp
+L power:Earth #PWR?
+U 1 1 5C74DED6
+P 4100 3950
+F 0 "#PWR?" H 4100 3700 50  0001 C CNN
+F 1 "Earth" H 4100 3800 50  0001 C CNN
+F 2 "" H 4100 3950 50  0001 C CNN
+F 3 "~" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEDC
+P 4300 4150
+F 0 "R?" V 4093 4150 50  0000 C CNN
+F 1 "10k" V 4184 4150 50  0000 C CNN
+F 2 "" V 4230 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEE3
+P 4100 4350
+F 0 "R?" H 4030 4304 50  0000 R CNN
+F 1 "1k" H 4030 4395 50  0000 R CNN
+F 2 "" V 4030 4350 50  0001 C CNN
+F 3 "~" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	-1   0    0    1   
+$EndComp
+Text Label 4600 4150 2    50   ~ 0
+O7
+Wire Wire Line
+	4450 4150 4600 4150
+Text Label 3900 4350 2    50   ~ 0
+OI7
+Wire Wire Line
+	3900 4350 3750 4350
+Wire Wire Line
+	4150 4150 4100 4150
+Wire Wire Line
+	4100 4200 4100 4150
+Connection ~ 4100 4150
+$Comp
+L power:Earth #PWR?
+U 1 1 5C74DEF2
+P 4100 4500
+F 0 "#PWR?" H 4100 4250 50  0001 C CNN
+F 1 "Earth" H 4100 4350 50  0001 C CNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "~" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEF8
+P 4300 4700
+F 0 "R?" V 4093 4700 50  0000 C CNN
+F 1 "10k" V 4184 4700 50  0000 C CNN
+F 2 "" V 4230 4700 50  0001 C CNN
+F 3 "~" H 4300 4700 50  0001 C CNN
+	1    4300 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74DEFF
+P 4100 4900
+F 0 "R?" H 4030 4854 50  0000 R CNN
+F 1 "1k" H 4030 4945 50  0000 R CNN
+F 2 "" V 4030 4900 50  0001 C CNN
+F 3 "~" H 4100 4900 50  0001 C CNN
+	1    4100 4900
+	-1   0    0    1   
+$EndComp
+Text Label 4600 4700 2    50   ~ 0
+O8
+Wire Wire Line
+	4450 4700 4600 4700
+Text Label 3900 4900 2    50   ~ 0
+OI8
+Wire Wire Line
+	3900 4900 3750 4900
+Wire Wire Line
+	4150 4700 4100 4700
+Wire Wire Line
+	4100 4750 4100 4700
+Connection ~ 4100 4700
+$Comp
+L power:Earth #PWR?
+U 1 1 5C74DF0E
+P 4100 5050
+F 0 "#PWR?" H 4100 4800 50  0001 C CNN
+F 1 "Earth" H 4100 4900 50  0001 C CNN
+F 2 "" H 4100 5050 50  0001 C CNN
+F 3 "~" H 4100 5050 50  0001 C CNN
+	1    4100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 3 1 5C74DF14
+P 3450 4250
+F 0 "U?" H 3450 4575 50  0000 C CNN
+F 1 "74HC86" H 3450 4484 50  0000 C CNN
+F 2 "" H 3450 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 4250 50  0001 C CNN
+	3    3450 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 4 1 5C74DF1B
+P 3450 4800
+F 0 "U?" H 3450 5125 50  0000 C CNN
+F 1 "74HC86" H 3450 5034 50  0000 C CNN
+F 2 "" H 3450 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 3450 4800 50  0001 C CNN
+	4    3450 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C756466
+P 2850 1050
+F 0 "U?" H 2850 1375 50  0000 C CNN
+F 1 "74LS32" H 2850 1284 50  0000 C CNN
+F 2 "" H 2850 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 1050 50  0001 C CNN
+	1    2850 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 2 1 5C756570
+P 2850 2150
+F 0 "U?" H 2850 2475 50  0000 C CNN
+F 1 "74LS32" H 2850 2384 50  0000 C CNN
+F 2 "" H 2850 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 2150 50  0001 C CNN
+	2    2850 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 3 1 5C756667
+P 2850 3250
+F 0 "U?" H 2850 2933 50  0000 C CNN
+F 1 "74LS32" H 2850 3024 50  0000 C CNN
+F 2 "" H 2850 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 3250 50  0001 C CNN
+	3    2850 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 4 1 5C756970
+P 2850 4350
+F 0 "U?" H 2850 4033 50  0000 C CNN
+F 1 "74LS32" H 2850 4124 50  0000 C CNN
+F 2 "" H 2850 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 4350 50  0001 C CNN
+	4    2850 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 5 1 5C756AB1
+P 9500 5850
+F 0 "U?" H 9730 5896 50  0000 L CNN
+F 1 "74LS32" H 9730 5805 50  0000 L CNN
+F 2 "" H 9500 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9500 5850 50  0001 C CNN
+	5    9500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1500 3150 1150
+Wire Wire Line
+	3150 2600 3150 2250
+Wire Wire Line
+	3150 3700 3150 3350
+Wire Wire Line
+	3150 4800 3150 4450
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5C77DB54
+P 2250 1150
+F 0 "U?" H 2250 1475 50  0000 C CNN
+F 1 "74LS32" H 2250 1384 50  0000 C CNN
+F 2 "" H 2250 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2250 1150 50  0001 C CNN
+	1    2250 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 2 1 5C77DC1E
+P 2250 3350
+F 0 "U?" H 2250 3675 50  0000 C CNN
+F 1 "74LS32" H 2250 3584 50  0000 C CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2250 3350 50  0001 C CNN
+	2    2250 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 3 1 5C77DD0A
+P 1650 1250
+F 0 "U?" H 1650 933 50  0000 C CNN
+F 1 "74LS32" H 1650 1024 50  0000 C CNN
+F 2 "" H 1650 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1650 1250 50  0001 C CNN
+	3    1650 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 4 1 5C77DE12
+P 1650 4350
+F 0 "U?" H 1650 4033 50  0000 C CNN
+F 1 "74LS32" H 1650 4124 50  0000 C CNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1650 4350 50  0001 C CNN
+	4    1650 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 2150 2550 1250
+Wire Wire Line
+	2550 4350 2550 3450
+Wire Wire Line
+	1950 3350 1950 1350
+Text Label 1100 1250 0    50   ~ 0
+CHECK
+Text Label 8100 1050 2    50   ~ 0
+O1
+Text Label 8100 2100 2    50   ~ 0
+O2
+Text Label 8100 3150 2    50   ~ 0
+O3
+Text Label 8100 4200 2    50   ~ 0
+O4
+Text Label 10000 1050 2    50   ~ 0
+O5
+Text Label 10000 2100 2    50   ~ 0
+O6
+Text Label 10000 3150 2    50   ~ 0
+O7
+Text Label 10000 4200 2    50   ~ 0
+O8
+Wire Wire Line
+	8100 1050 7950 1050
+Connection ~ 7950 1050
+Wire Wire Line
+	7950 2100 8100 2100
+Connection ~ 7950 2100
+Wire Wire Line
+	8100 3150 7950 3150
+Connection ~ 7950 3150
+Wire Wire Line
+	7950 4200 8100 4200
+Connection ~ 7950 4200
+Wire Wire Line
+	10000 4200 9850 4200
+Connection ~ 9850 4200
+Wire Wire Line
+	9850 3150 10000 3150
+Connection ~ 9850 3150
+Wire Wire Line
+	10000 2100 9850 2100
+Connection ~ 9850 2100
+Wire Wire Line
+	9850 1050 10000 1050
+Connection ~ 9850 1050
+Text Label 6900 950  0    50   ~ 0
+OI1
+Text Label 6900 2000 0    50   ~ 0
+OI2
+Text Label 6900 3050 0    50   ~ 0
+OI3
+Text Label 6900 4100 0    50   ~ 0
+OI4
+Text Label 8800 950  0    50   ~ 0
+OI5
+Text Label 8800 2000 0    50   ~ 0
+OI6
+Text Label 8800 3050 0    50   ~ 0
+OI7
+Text Label 8800 4100 0    50   ~ 0
+OI8
+Wire Wire Line
+	6900 950  7050 950 
+Wire Wire Line
+	7050 2000 6900 2000
+Wire Wire Line
+	6900 3050 7050 3050
+Wire Wire Line
+	7050 4100 6900 4100
+Wire Wire Line
+	8950 4100 8800 4100
+Wire Wire Line
+	8800 3050 8950 3050
+Wire Wire Line
+	8950 2000 8800 2000
+Wire Wire Line
+	8800 950  8950 950 
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C837134
+P 10900 800
+F 0 "J?" H 10980 746 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 701 50  0001 L CNN
+F 2 "" H 10900 800 50  0001 C CNN
+F 3 "~" H 10900 800 50  0001 C CNN
+	1    10900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C8375FE
+P 10900 1050
+F 0 "J?" H 10980 996 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 951 50  0001 L CNN
+F 2 "" H 10900 1050 50  0001 C CNN
+F 3 "~" H 10900 1050 50  0001 C CNN
+	1    10900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C8376AA
+P 10900 1300
+F 0 "J?" H 10980 1246 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 1201 50  0001 L CNN
+F 2 "" H 10900 1300 50  0001 C CNN
+F 3 "~" H 10900 1300 50  0001 C CNN
+	1    10900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C837758
+P 10900 1550
+F 0 "J?" H 10980 1496 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 1451 50  0001 L CNN
+F 2 "" H 10900 1550 50  0001 C CNN
+F 3 "~" H 10900 1550 50  0001 C CNN
+	1    10900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C837804
+P 10900 1800
+F 0 "J?" H 10980 1746 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 1701 50  0001 L CNN
+F 2 "" H 10900 1800 50  0001 C CNN
+F 3 "~" H 10900 1800 50  0001 C CNN
+	1    10900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C8378B2
+P 10900 2050
+F 0 "J?" H 10980 1996 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 1951 50  0001 L CNN
+F 2 "" H 10900 2050 50  0001 C CNN
+F 3 "~" H 10900 2050 50  0001 C CNN
+	1    10900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C837962
+P 10900 2300
+F 0 "J?" H 10980 2246 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 2201 50  0001 L CNN
+F 2 "" H 10900 2300 50  0001 C CNN
+F 3 "~" H 10900 2300 50  0001 C CNN
+	1    10900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C837A18
+P 10900 2550
+F 0 "J?" H 10980 2496 50  0000 L CNN
+F 1 "Conn_01x02" H 10980 2451 50  0001 L CNN
+F 2 "" H 10900 2550 50  0001 C CNN
+F 3 "~" H 10900 2550 50  0001 C CNN
+	1    10900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C837BC4
+P 10700 900
+F 0 "#PWR?" H 10700 650 50  0001 C CNN
+F 1 "Earth" H 10700 750 50  0001 C CNN
+F 2 "" H 10700 900 50  0001 C CNN
+F 3 "~" H 10700 900 50  0001 C CNN
+	1    10700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838C2A
+P 10700 1150
+F 0 "#PWR?" H 10700 900 50  0001 C CNN
+F 1 "Earth" H 10700 1000 50  0001 C CNN
+F 2 "" H 10700 1150 50  0001 C CNN
+F 3 "~" H 10700 1150 50  0001 C CNN
+	1    10700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838CD3
+P 10700 1400
+F 0 "#PWR?" H 10700 1150 50  0001 C CNN
+F 1 "Earth" H 10700 1250 50  0001 C CNN
+F 2 "" H 10700 1400 50  0001 C CNN
+F 3 "~" H 10700 1400 50  0001 C CNN
+	1    10700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838D7C
+P 10700 1650
+F 0 "#PWR?" H 10700 1400 50  0001 C CNN
+F 1 "Earth" H 10700 1500 50  0001 C CNN
+F 2 "" H 10700 1650 50  0001 C CNN
+F 3 "~" H 10700 1650 50  0001 C CNN
+	1    10700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838E25
+P 10700 1900
+F 0 "#PWR?" H 10700 1650 50  0001 C CNN
+F 1 "Earth" H 10700 1750 50  0001 C CNN
+F 2 "" H 10700 1900 50  0001 C CNN
+F 3 "~" H 10700 1900 50  0001 C CNN
+	1    10700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838ECE
+P 10700 2150
+F 0 "#PWR?" H 10700 1900 50  0001 C CNN
+F 1 "Earth" H 10700 2000 50  0001 C CNN
+F 2 "" H 10700 2150 50  0001 C CNN
+F 3 "~" H 10700 2150 50  0001 C CNN
+	1    10700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C838F77
+P 10700 2400
+F 0 "#PWR?" H 10700 2150 50  0001 C CNN
+F 1 "Earth" H 10700 2250 50  0001 C CNN
+F 2 "" H 10700 2400 50  0001 C CNN
+F 3 "~" H 10700 2400 50  0001 C CNN
+	1    10700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C839020
+P 10700 2650
+F 0 "#PWR?" H 10700 2400 50  0001 C CNN
+F 1 "Earth" H 10700 2500 50  0001 C CNN
+F 2 "" H 10700 2650 50  0001 C CNN
+F 3 "~" H 10700 2650 50  0001 C CNN
+	1    10700 2650
+	1    0    0    -1  
+$EndComp
+Text Label 10550 800  0    50   ~ 0
+O1
+Text Label 10550 1050 0    50   ~ 0
+O2
+Text Label 10550 1300 0    50   ~ 0
+O3
+Text Label 10550 1550 0    50   ~ 0
+O4
+Text Label 10550 1800 0    50   ~ 0
+O5
+Text Label 10550 2050 0    50   ~ 0
+O6
+Text Label 10550 2300 0    50   ~ 0
+O7
+Text Label 10550 2550 0    50   ~ 0
+O8
+Wire Wire Line
+	10700 800  10550 800 
+Wire Wire Line
+	10550 1050 10700 1050
+Wire Wire Line
+	10700 1300 10550 1300
+Wire Wire Line
+	10550 1550 10700 1550
+Wire Wire Line
+	10700 1800 10550 1800
+Wire Wire Line
+	10550 2050 10700 2050
+Wire Wire Line
+	10700 2300 10550 2300
+Wire Wire Line
+	10550 2550 10700 2550
+Entry Wire Line
+	10450 700  10550 800 
+Entry Wire Line
+	10450 950  10550 1050
+Entry Wire Line
+	10450 1200 10550 1300
+Entry Wire Line
+	10450 1450 10550 1550
+Entry Wire Line
+	10450 1700 10550 1800
+Entry Wire Line
+	10450 1950 10550 2050
+Entry Wire Line
+	10450 2200 10550 2300
+Entry Wire Line
+	10450 2450 10550 2550
+Entry Wire Line
+	8700 850  8800 950 
+Entry Wire Line
+	8700 1900 8800 2000
+Entry Wire Line
+	8700 2950 8800 3050
+Entry Wire Line
+	8700 4000 8800 4100
+Entry Wire Line
+	10000 1050 10100 1150
+Entry Wire Line
+	10000 2100 10100 2200
+Entry Wire Line
+	10000 3150 10100 3250
+Entry Wire Line
+	10000 4200 10100 4300
+Entry Wire Line
+	8100 4200 8200 4300
+Entry Wire Line
+	8100 3150 8200 3250
+Entry Wire Line
+	8100 2100 8200 2200
+Entry Wire Line
+	8100 1050 8200 1150
+Entry Wire Line
+	6800 850  6900 950 
+Entry Wire Line
+	6800 1900 6900 2000
+Entry Wire Line
+	6800 2950 6900 3050
+Entry Wire Line
+	6800 4000 6900 4100
+Entry Bus Bus
+	10000 600  10100 700 
+Entry Wire Line
+	4350 6050 4450 6150
+Entry Wire Line
+	4350 6150 4450 6250
+Entry Wire Line
+	4350 6250 4450 6350
+Entry Wire Line
+	4350 6350 4450 6450
+Entry Wire Line
+	4350 6450 4450 6550
+Entry Wire Line
+	4350 6550 4450 6650
+Entry Wire Line
+	4350 6650 4450 6750
+Entry Wire Line
+	4350 6750 4450 6850
+$Comp
+L Switch:SW_DIP_x04 SW?
+U 1 1 5C89C5F7
+P 6350 5700
+F 0 "SW?" H 6350 6075 50  0000 C CNN
+F 1 "SW_DIP_x04" H 6350 6076 50  0001 C CNN
+F 2 "" H 6350 5700 50  0001 C CNN
+F 3 "" H 6350 5700 50  0001 C CNN
+	1    6350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5800 6650 5700
+Connection ~ 6650 5600
+Wire Wire Line
+	6650 5600 6650 5500
+Connection ~ 6650 5700
+Wire Wire Line
+	6650 5700 6650 5600
+$Comp
+L power:+24V #PWR?
+U 1 1 5C8A6636
+P 6050 5500
+F 0 "#PWR?" H 6050 5350 50  0001 C CNN
+F 1 "+24V" V 6065 5628 50  0000 L CNN
+F 2 "" H 6050 5500 50  0001 C CNN
+F 3 "" H 6050 5500 50  0001 C CNN
+	1    6050 5500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6050 5600 0    50   Input ~ 0
+PPA12V
+Text GLabel 6050 5700 0    50   Input ~ 0
+PPB5V
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5C8B1267
+P 6050 6450
+F 0 "U?" H 6008 6496 50  0000 L CNN
+F 1 "LM358" H 6008 6405 50  0000 L CNN
+F 2 "" H 6050 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6050 6450 50  0001 C CNN
+	3    6050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5C8B133B
+P 6400 6450
+F 0 "U?" H 6358 6496 50  0000 L CNN
+F 1 "LM358" H 6358 6405 50  0000 L CNN
+F 2 "" H 6400 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6400 6450 50  0001 C CNN
+	3    6400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5C8B1401
+P 6750 6450
+F 0 "U?" H 6708 6496 50  0000 L CNN
+F 1 "LM358" H 6708 6405 50  0000 L CNN
+F 2 "" H 6750 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6750 6450 50  0001 C CNN
+	3    6750 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6750 5950 6750
+Connection ~ 5950 6750
+Wire Wire Line
+	5950 6750 6300 6750
+Connection ~ 6300 6750
+Wire Wire Line
+	6300 6750 6650 6750
+Wire Wire Line
+	6650 6150 6300 6150
+Connection ~ 5950 6150
+Wire Wire Line
+	5950 6150 5600 6150
+Connection ~ 6300 6150
+Wire Wire Line
+	6300 6150 5950 6150
+NoConn ~ 6050 5800
+$Comp
+L 74xx:74HC86 U?
+U 5 1 5C8E1C82
+P 8550 5850
+F 0 "U?" H 8780 5896 50  0000 L CNN
+F 1 "74HC86" H 8780 5805 50  0000 L CNN
+F 2 "" H 8550 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 8550 5850 50  0001 C CNN
+	5    8550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 5 1 5C8FF98E
+P 10300 5850
+F 0 "U?" H 10530 5896 50  0000 L CNN
+F 1 "74LS32" H 10530 5805 50  0000 L CNN
+F 2 "" H 10300 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 10300 5850 50  0001 C CNN
+	5    10300 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 5300 0    50   Input ~ 0
+PPB5V
+$Comp
+L Device:C C?
+U 1 1 5C9002EC
+P 8100 5450
+F 0 "C?" H 8150 5550 50  0000 L CNN
+F 1 "100n" H 8150 5350 50  0000 L CNN
+F 2 "" H 8138 5300 50  0001 C CNN
+F 3 "~" H 8100 5450 50  0001 C CNN
+	1    8100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C900755
+P 7200 5450
+F 0 "C?" H 7250 5550 50  0000 L CNN
+F 1 "100n" H 7250 5350 50  0000 L CNN
+F 2 "" H 7238 5300 50  0001 C CNN
+F 3 "~" H 7200 5450 50  0001 C CNN
+	1    7200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5300 7200 5300
+Wire Wire Line
+	8550 5300 8550 5350
+Connection ~ 7200 5300
+Wire Wire Line
+	7200 5300 7650 5300
+Connection ~ 8100 5300
+Wire Wire Line
+	8100 5300 8550 5300
+Wire Wire Line
+	7650 5350 7650 5300
+Connection ~ 7650 5300
+Wire Wire Line
+	7650 5300 8100 5300
+$Comp
+L power:Earth #PWR?
+U 1 1 5C91488A
+P 7200 5600
+F 0 "#PWR?" H 7200 5350 50  0001 C CNN
+F 1 "Earth" H 7200 5450 50  0001 C CNN
+F 2 "" H 7200 5600 50  0001 C CNN
+F 3 "~" H 7200 5600 50  0001 C CNN
+	1    7200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C914943
+P 8100 5600
+F 0 "#PWR?" H 8100 5350 50  0001 C CNN
+F 1 "Earth" H 8100 5450 50  0001 C CNN
+F 2 "" H 8100 5600 50  0001 C CNN
+F 3 "~" H 8100 5600 50  0001 C CNN
+	1    8100 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 6350 7650 6350
+Wire Wire Line
+	7650 6350 7650 6400
+Connection ~ 7650 6350
+$Comp
+L power:Earth #PWR?
+U 1 1 5C9294E4
+P 7650 6400
+F 0 "#PWR?" H 7650 6150 50  0001 C CNN
+F 1 "Earth" H 7650 6250 50  0001 C CNN
+F 2 "" H 7650 6400 50  0001 C CNN
+F 3 "~" H 7650 6400 50  0001 C CNN
+	1    7650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C92A1D9
+P 9050 5450
+F 0 "C?" H 9100 5550 50  0000 L CNN
+F 1 "100n" H 9100 5350 50  0000 L CNN
+F 2 "" H 9088 5300 50  0001 C CNN
+F 3 "~" H 9050 5450 50  0001 C CNN
+	1    9050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C92A41B
+P 9850 5450
+F 0 "C?" H 9900 5550 50  0000 L CNN
+F 1 "100n" H 9900 5350 50  0000 L CNN
+F 2 "" H 9888 5300 50  0001 C CNN
+F 3 "~" H 9850 5450 50  0001 C CNN
+	1    9850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5300 9050 5300
+Wire Wire Line
+	10300 5300 10300 5350
+Connection ~ 9050 5300
+Wire Wire Line
+	9050 5300 9500 5300
+Connection ~ 9850 5300
+Wire Wire Line
+	9850 5300 10300 5300
+Wire Wire Line
+	9500 5350 9500 5300
+Connection ~ 9500 5300
+Wire Wire Line
+	9500 5300 9850 5300
+$Comp
+L power:Earth #PWR?
+U 1 1 5C9558F7
+P 9050 5600
+F 0 "#PWR?" H 9050 5350 50  0001 C CNN
+F 1 "Earth" H 9050 5450 50  0001 C CNN
+F 2 "" H 9050 5600 50  0001 C CNN
+F 3 "~" H 9050 5600 50  0001 C CNN
+	1    9050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5C9559B4
+P 9850 5600
+F 0 "#PWR?" H 9850 5350 50  0001 C CNN
+F 1 "Earth" H 9850 5450 50  0001 C CNN
+F 2 "" H 9850 5600 50  0001 C CNN
+F 3 "~" H 9850 5600 50  0001 C CNN
+	1    9850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6350 10300 6350
+Text GLabel 8950 5300 0    50   Input ~ 0
+PPB3V3
+Wire Wire Line
+	9500 6350 8550 6350
+Connection ~ 9500 6350
+Connection ~ 8550 6350
+Wire Wire Line
+	1950 4250 1950 4450
+Connection ~ 1950 4450
+Wire Wire Line
+	1950 4450 1950 4500
+$Comp
+L power:Earth #PWR?
+U 1 1 5C999969
+P 1950 4500
+F 0 "#PWR?" H 1950 4250 50  0001 C CNN
+F 1 "Earth" H 1950 4350 50  0001 C CNN
+F 2 "" H 1950 4500 50  0001 C CNN
+F 3 "~" H 1950 4500 50  0001 C CNN
+	1    1950 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1350 4350
+Wire Wire Line
+	3900 3250 3750 3250
+Wire Wire Line
+	6650 5800 6650 6150
+Connection ~ 6650 5800
+Connection ~ 6650 6150
+$Comp
+L power:Earth #PWR?
+U 1 1 5CA0287F
+P 6650 6800
+F 0 "#PWR?" H 6650 6550 50  0001 C CNN
+F 1 "Earth" H 6650 6650 50  0001 C CNN
+F 2 "" H 6650 6800 50  0001 C CNN
+F 3 "~" H 6650 6800 50  0001 C CNN
+	1    6650 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6800 6650 6750
+Connection ~ 6650 6750
+Entry Bus Bus
+	6800 5000 6900 5100
+Entry Wire Line
+	4600 850  4700 950 
+Entry Wire Line
+	4600 1400 4700 1500
+Entry Wire Line
+	4600 1950 4700 2050
+Entry Wire Line
+	4600 2500 4700 2600
+Entry Wire Line
+	4600 3050 4700 3150
+Entry Wire Line
+	4600 3600 4700 3700
+Entry Wire Line
+	4600 4150 4700 4250
+Entry Wire Line
+	4600 4700 4700 4800
+Text HLabel 1050 1250 0    50   Output ~ 0
+CHECK
+Wire Wire Line
+	1050 1250 1350 1250
+Text HLabel 1050 6050 0    50   Input ~ 0
+SET-BIT
+Wire Wire Line
+	1050 6050 1850 6050
+Text HLabel 1050 6950 0    50   Input ~ 0
+SHIFT-IN
+Text HLabel 1050 7050 0    50   Input ~ 0
+PUSH
+Wire Wire Line
+	1050 6950 1850 6950
+Wire Wire Line
+	1050 7050 1800 7050
+Wire Wire Line
+	1800 7050 1800 7500
+Wire Wire Line
+	1800 7500 2850 7500
+Wire Wire Line
+	2850 7500 2850 6950
+Wire Wire Line
+	3750 4700 4100 4700
+Wire Wire Line
+	3750 4150 4100 4150
+Wire Wire Line
+	3750 3600 4100 3600
+Wire Wire Line
+	3750 3050 4100 3050
+Wire Wire Line
+	3750 2500 4100 2500
+Wire Wire Line
+	3750 1950 4100 1950
+Wire Wire Line
+	3750 850  4100 850 
+Wire Wire Line
+	3750 1400 4100 1400
+Entry Wire Line
+	3900 4900 4000 5000
+Entry Wire Line
+	3900 4350 4000 4450
+Entry Wire Line
+	3900 3800 4000 3900
+Entry Wire Line
+	3900 3250 4000 3350
+Entry Wire Line
+	3900 2700 4000 2800
+Entry Wire Line
+	3900 2150 4000 2250
+Entry Wire Line
+	3900 1600 4000 1700
+Entry Wire Line
+	3900 1050 4000 1150
+Wire Bus Line
+	4700 600  8200 600 
+Connection ~ 8200 600 
+Entry Bus Bus
+	4350 5250 4450 5350
+Wire Bus Line
+	4350 5250 4000 5250
+Wire Bus Line
+	8200 600  10450 600 
+Wire Bus Line
+	4450 5100 8700 5100
+Wire Bus Line
+	8200 600  8200 4300
+Wire Bus Line
+	10100 700  10100 4300
+Wire Bus Line
+	8700 850  8700 5100
+Wire Bus Line
+	6800 850  6800 5000
+Wire Bus Line
+	10450 600  10450 2450
+Wire Bus Line
+	4450 5100 4450 6850
+Wire Bus Line
+	4700 600  4700 4800
+Wire Bus Line
+	4000 1150 4000 5250
+$EndSCHEMATC
