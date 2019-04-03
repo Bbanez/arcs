@@ -8,10 +8,17 @@
 
 int main(void)  {
 
+<<<<<<< HEAD
     DDRB |= 1 << PORTB7;
 
     while(1)    {
         tbit(PORTB, PIN7);
+=======
+    DDRB |= 1 << PORTB5;
+
+    while(1)    {
+        tbit(PORTB, PIN5);
+>>>>>>> 23448212438685572f7b5256cae3ed2289d3afa9
         _delay_ms(1000);
     }
     return 0;
