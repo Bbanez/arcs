@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name OPAmps)(type Legacy)(uri ${KIPRJMOD}/OPAmps.lib)(options "")(descr ""))
+  (lib (name 74xGxx_custom)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/74xGxx_custom.lib)(options "")(descr ""))
+  (lib (name DACs)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/DACs.lib)(options "")(descr ""))
+)

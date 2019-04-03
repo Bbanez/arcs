@@ -1,0 +1,553 @@
+EESchema Schematic File Version 4
+LIBS:ARCS-CARDS-O-12-4-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "OUTPUT CARD 124"
+Date "2019-03-31"
+Rev "1.0"
+Comp "Cohesion"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS573 U321
+U 1 1 5CC713D5
+P 5500 2500
+F 0 "U321" H 5750 3300 50  0000 C CNN
+F 1 "74HC573" H 5750 3200 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5500 2500 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 5500 2500 50  0001 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2000 6000 1650
+Wire Wire Line
+	6000 1650 4950 1650
+Wire Wire Line
+	4950 1650 4950 2100
+Wire Wire Line
+	4950 2100 5000 2100
+Wire Wire Line
+	6000 2100 6050 2100
+Wire Wire Line
+	6050 2100 6050 1600
+Wire Wire Line
+	6050 1600 4900 1600
+Wire Wire Line
+	4900 1600 4900 2200
+Wire Wire Line
+	4900 2200 5000 2200
+Wire Wire Line
+	6000 2200 6100 2200
+Wire Wire Line
+	6100 2200 6100 1550
+Wire Wire Line
+	6100 1550 4850 1550
+Wire Wire Line
+	4850 1550 4850 2300
+Wire Wire Line
+	4850 2300 5000 2300
+Wire Wire Line
+	6000 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 1500
+Wire Wire Line
+	6150 1500 4800 1500
+Wire Wire Line
+	4800 1500 4800 2400
+Wire Wire Line
+	4800 2400 5000 2400
+Wire Wire Line
+	6000 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 1450
+Wire Wire Line
+	6200 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 2500
+Wire Wire Line
+	4750 2500 5000 2500
+Wire Wire Line
+	6000 2500 6250 2500
+Wire Wire Line
+	6250 2500 6250 1400
+Wire Wire Line
+	6250 1400 4700 1400
+Wire Wire Line
+	4700 1400 4700 2600
+Wire Wire Line
+	4700 2600 5000 2600
+Wire Wire Line
+	6000 2600 6300 2600
+Wire Wire Line
+	6300 2600 6300 1350
+Wire Wire Line
+	6300 1350 4650 1350
+Wire Wire Line
+	4650 1350 4650 2700
+Wire Wire Line
+	4650 2700 5000 2700
+$Comp
+L power:Earth #PWR0105
+U 1 1 5CC713FE
+P 5500 3300
+F 0 "#PWR0105" H 5500 3050 50  0001 C CNN
+F 1 "Earth" H 5500 3150 50  0001 C CNN
+F 2 "" H 5500 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3300 5000 3300
+Wire Wire Line
+	5000 3300 5000 3000
+Connection ~ 5500 3300
+Text Label 4650 2900 0    50   ~ 0
+SHIFT-IN
+Text Label 4250 2000 0    50   ~ 0
+SET-BIT
+$Comp
+L 74xx:74LS573 U323
+U 1 1 5CC71409
+P 6950 2500
+F 0 "U323" H 7200 3300 50  0000 C CNN
+F 1 "74HC573" H 7200 3200 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6950 2500 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 6950 2500 50  0001 C CNN
+	1    6950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3300 6450 3300
+$Comp
+L Device:C C323
+U 1 1 5CC71411
+P 4400 1650
+F 0 "C323" H 4450 1750 50  0000 L CNN
+F 1 "100n" H 4450 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1500 50  0001 C CNN
+F 3 "~" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1500 4400 1300
+Wire Wire Line
+	4400 1300 5500 1300
+Wire Wire Line
+	5500 1300 5500 1700
+$Comp
+L power:Earth #PWR0106
+U 1 1 5CC7141B
+P 4400 1800
+F 0 "#PWR0106" H 4400 1550 50  0001 C CNN
+F 1 "Earth" H 4400 1650 50  0001 C CNN
+F 2 "" H 4400 1800 50  0001 C CNN
+F 3 "~" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1300 4400 1300
+Connection ~ 4400 1300
+$Comp
+L power:Earth #PWR0107
+U 1 1 5CC71423
+P 6950 3300
+F 0 "#PWR0107" H 6950 3050 50  0001 C CNN
+F 1 "Earth" H 6950 3150 50  0001 C CNN
+F 2 "" H 6950 3300 50  0001 C CNN
+F 3 "~" H 6950 3300 50  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3300
+Text Label 6000 2900 0    50   ~ 0
+PUSH
+Connection ~ 6000 2000
+Connection ~ 6050 2100
+Connection ~ 6100 2200
+Connection ~ 6150 2300
+Connection ~ 6200 2400
+Connection ~ 6250 2500
+Connection ~ 6300 2600
+Wire Wire Line
+	6950 1300 6950 1700
+$Comp
+L Device:C C325
+U 1 1 5CC71433
+P 6550 1650
+F 0 "C325" H 6600 1750 50  0000 L CNN
+F 1 "100n" H 6600 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 1500 50  0001 C CNN
+F 3 "~" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1500 6550 1300
+Connection ~ 6550 1300
+Wire Wire Line
+	6550 1300 6950 1300
+$Comp
+L power:Earth #PWR0108
+U 1 1 5CC7143D
+P 6550 1800
+F 0 "#PWR0108" H 6550 1550 50  0001 C CNN
+F 1 "Earth" H 6550 1650 50  0001 C CNN
+F 2 "" H 6550 1800 50  0001 C CNN
+F 3 "~" H 6550 1800 50  0001 C CNN
+	1    6550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3000 4950 3450
+Wire Wire Line
+	4950 3450 6000 3450
+Wire Wire Line
+	6000 3450 6000 2900
+Text HLabel 3450 2000 0    50   Input ~ 0
+SET-BIT
+Text HLabel 3450 2900 0    50   Input ~ 0
+SHIFT-IN
+Text HLabel 3450 3000 0    50   Input ~ 0
+PUSH
+$Comp
+L power:+5V #PWR0109
+U 1 1 5CC7177A
+P 4350 1300
+F 0 "#PWR0109" H 4350 1150 50  0001 C CNN
+F 1 "+5V" V 4365 1428 50  0000 L CNN
+F 2 "" H 4350 1300 50  0001 C CNN
+F 3 "" H 4350 1300 50  0001 C CNN
+	1    4350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 1300 6550 1300
+Connection ~ 5500 1300
+Wire Wire Line
+	6000 2000 6450 2000
+Wire Wire Line
+	6050 2100 6450 2100
+Wire Wire Line
+	6100 2200 6450 2200
+Wire Wire Line
+	6150 2300 6450 2300
+Wire Wire Line
+	6200 2400 6450 2400
+Wire Wire Line
+	6250 2500 6450 2500
+Wire Wire Line
+	6300 2600 6450 2600
+Wire Wire Line
+	6000 2900 6450 2900
+Wire Wire Line
+	6450 3000 6450 3300
+$Comp
+L 74xx:74LS573 U322
+U 1 1 7BDEA80B
+P 5500 4850
+F 0 "U322" H 5750 5650 50  0000 C CNN
+F 1 "74HC573" H 5750 5550 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5500 4850 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 5500 4850 50  0001 C CNN
+	1    5500 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4350 6000 4000
+Wire Wire Line
+	6000 4000 4950 4000
+Wire Wire Line
+	4950 4000 4950 4450
+Wire Wire Line
+	4950 4450 5000 4450
+Wire Wire Line
+	6000 4450 6050 4450
+Wire Wire Line
+	6050 4450 6050 3950
+Wire Wire Line
+	6050 3950 4900 3950
+Wire Wire Line
+	4900 3950 4900 4550
+Wire Wire Line
+	4900 4550 5000 4550
+Wire Wire Line
+	6000 4550 6100 4550
+Wire Wire Line
+	6100 4550 6100 3900
+Wire Wire Line
+	6100 3900 4850 3900
+Wire Wire Line
+	4850 3900 4850 4650
+Wire Wire Line
+	4850 4650 5000 4650
+Wire Wire Line
+	6000 4650 6150 4650
+Wire Wire Line
+	6150 4650 6150 3850
+Wire Wire Line
+	6150 3850 4800 3850
+Wire Wire Line
+	4800 3850 4800 4750
+Wire Wire Line
+	4800 4750 5000 4750
+Wire Wire Line
+	6000 4750 6200 4750
+Wire Wire Line
+	6200 4750 6200 3800
+Wire Wire Line
+	6200 3800 4750 3800
+Wire Wire Line
+	4750 3800 4750 4850
+Wire Wire Line
+	4750 4850 5000 4850
+Wire Wire Line
+	6000 4850 6250 4850
+Wire Wire Line
+	6250 4850 6250 3750
+Wire Wire Line
+	6250 3750 4700 3750
+Wire Wire Line
+	4700 3750 4700 4950
+Wire Wire Line
+	4700 4950 5000 4950
+Wire Wire Line
+	6000 4950 6300 4950
+Wire Wire Line
+	6300 4950 6300 3700
+Wire Wire Line
+	6300 3700 4650 3700
+Wire Wire Line
+	4650 3700 4650 5050
+Wire Wire Line
+	4650 5050 5000 5050
+$Comp
+L power:Earth #PWR0110
+U 1 1 7BDEA834
+P 5500 5650
+F 0 "#PWR0110" H 5500 5400 50  0001 C CNN
+F 1 "Earth" H 5500 5500 50  0001 C CNN
+F 2 "" H 5500 5650 50  0001 C CNN
+F 3 "~" H 5500 5650 50  0001 C CNN
+	1    5500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5650 5000 5650
+Wire Wire Line
+	5000 5650 5000 5350
+Connection ~ 5500 5650
+$Comp
+L 74xx:74LS573 U324
+U 1 1 7BDEA83F
+P 6950 4850
+F 0 "U324" H 7200 5650 50  0000 C CNN
+F 1 "74HC573" H 7200 5550 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6950 4850 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 6950 4850 50  0001 C CNN
+	1    6950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5650 6450 5650
+$Comp
+L Device:C C324
+U 1 1 7BDEA847
+P 4400 4000
+F 0 "C324" H 4450 4100 50  0000 L CNN
+F 1 "100n" H 4450 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 3850 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3850 4400 3650
+Wire Wire Line
+	4400 3650 5500 3650
+Wire Wire Line
+	5500 3650 5500 4050
+$Comp
+L power:Earth #PWR0111
+U 1 1 7BDEA851
+P 4400 4150
+F 0 "#PWR0111" H 4400 3900 50  0001 C CNN
+F 1 "Earth" H 4400 4000 50  0001 C CNN
+F 2 "" H 4400 4150 50  0001 C CNN
+F 3 "~" H 4400 4150 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3650 4400 3650
+Connection ~ 4400 3650
+$Comp
+L power:Earth #PWR0112
+U 1 1 7BDEA859
+P 6950 5650
+F 0 "#PWR0112" H 6950 5400 50  0001 C CNN
+F 1 "Earth" H 6950 5500 50  0001 C CNN
+F 2 "" H 6950 5650 50  0001 C CNN
+F 3 "~" H 6950 5650 50  0001 C CNN
+	1    6950 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 5650
+Connection ~ 6000 4350
+Connection ~ 6050 4450
+Connection ~ 6100 4550
+Connection ~ 6150 4650
+Connection ~ 6200 4750
+Connection ~ 6250 4850
+Connection ~ 6300 4950
+Wire Wire Line
+	6950 3650 6950 4050
+$Comp
+L Device:C C326
+U 1 1 7BDEA869
+P 6550 4000
+F 0 "C326" H 6600 4100 50  0000 L CNN
+F 1 "100n" H 6600 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 3850 50  0001 C CNN
+F 3 "~" H 6550 4000 50  0001 C CNN
+	1    6550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3850 6550 3650
+Connection ~ 6550 3650
+Wire Wire Line
+	6550 3650 6950 3650
+$Comp
+L power:Earth #PWR0113
+U 1 1 7BDEA873
+P 6550 4150
+F 0 "#PWR0113" H 6550 3900 50  0001 C CNN
+F 1 "Earth" H 6550 4000 50  0001 C CNN
+F 2 "" H 6550 4150 50  0001 C CNN
+F 3 "~" H 6550 4150 50  0001 C CNN
+	1    6550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5350 4950 5800
+Wire Wire Line
+	4950 5800 6000 5800
+Wire Wire Line
+	6000 5800 6000 5250
+$Comp
+L power:+5V #PWR0114
+U 1 1 7BDEA89A
+P 4350 3650
+F 0 "#PWR0114" H 4350 3500 50  0001 C CNN
+F 1 "+5V" V 4365 3778 50  0000 L CNN
+F 2 "" H 4350 3650 50  0001 C CNN
+F 3 "" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 3650 6550 3650
+Connection ~ 5500 3650
+Wire Wire Line
+	6000 4350 6450 4350
+Wire Wire Line
+	6050 4450 6450 4450
+Wire Wire Line
+	6100 4550 6450 4550
+Wire Wire Line
+	6150 4650 6450 4650
+Wire Wire Line
+	6200 4750 6450 4750
+Wire Wire Line
+	6250 4850 6450 4850
+Wire Wire Line
+	6300 4950 6450 4950
+Wire Wire Line
+	6000 5050 6350 5050
+Wire Wire Line
+	6350 5050 6350 3700
+Connection ~ 6350 5050
+Wire Wire Line
+	6350 5050 6450 5050
+Wire Wire Line
+	6000 5250 6450 5250
+Wire Wire Line
+	6450 5350 6450 5650
+Text HLabel 7450 3700 2    50   Output ~ 0
+CARRY
+Wire Wire Line
+	5000 4350 5000 3600
+Wire Wire Line
+	5000 3600 6300 3600
+Wire Wire Line
+	6000 2700 6300 2700
+Wire Wire Line
+	6300 2700 6300 3600
+Connection ~ 6300 2700
+Wire Wire Line
+	6300 2700 6450 2700
+Wire Wire Line
+	4000 5250 4000 2900
+Wire Wire Line
+	4000 2900 3450 2900
+Wire Wire Line
+	4000 5250 5000 5250
+Wire Wire Line
+	4000 2900 5000 2900
+Connection ~ 4000 2900
+Wire Wire Line
+	3950 5350 3950 3000
+Wire Wire Line
+	3950 3000 3450 3000
+Wire Wire Line
+	3950 5350 4950 5350
+Wire Wire Line
+	3950 3000 4950 3000
+Connection ~ 3950 3000
+Wire Wire Line
+	3450 2000 5000 2000
+Text HLabel 7450 2000 2    50   Output ~ 0
+OUT1
+Text HLabel 7450 2100 2    50   Output ~ 0
+OUT2
+Text HLabel 7450 2200 2    50   Output ~ 0
+OUT3
+Text HLabel 7450 2300 2    50   Output ~ 0
+OUT4
+Text HLabel 7450 2400 2    50   Output ~ 0
+OUT5
+Text HLabel 7450 2500 2    50   Output ~ 0
+OUT6
+Text HLabel 7450 2600 2    50   Output ~ 0
+OUT7
+Text HLabel 7450 2700 2    50   Output ~ 0
+OUT8
+Text HLabel 7450 4350 2    50   Output ~ 0
+OUT9
+Text HLabel 7450 4450 2    50   Output ~ 0
+OUT10
+Text HLabel 7450 4550 2    50   Output ~ 0
+OUT11
+Text HLabel 7450 4650 2    50   Output ~ 0
+OUT12
+Text HLabel 7450 4750 2    50   Output ~ 0
+OUT13
+Text HLabel 7450 4850 2    50   Output ~ 0
+OUT14
+Text HLabel 7450 4950 2    50   Output ~ 0
+OUT15
+Text HLabel 7450 5050 2    50   Output ~ 0
+OUT16
+Wire Wire Line
+	6350 3700 7450 3700
+$EndSCHEMATC

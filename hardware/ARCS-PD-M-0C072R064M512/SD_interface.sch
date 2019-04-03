@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Micro_SD_Card J?
+L Connector:Micro_SD_Card J601
 U 1 1 5CCB2F0A
 P 7000 3550
-F 0 "J?" H 6950 4267 50  0000 C CNN
+F 0 "J601" H 6950 4267 50  0000 C CNN
 F 1 "Micro_SD_Card" H 6950 4176 50  0000 C CNN
 F 2 "" H 8150 3850 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7000 3550 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7000 3550 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L601
 U 1 1 5CCB2F51
 P 7800 4300
-F 0 "L?" H 7853 4346 50  0000 L CNN
+F 0 "L601" H 7853 4346 50  0000 L CNN
 F 1 "1u" H 7853 4255 50  0000 L CNN
 F 2 "" H 7800 4300 50  0001 C CNN
 F 3 "~" H 7800 4300 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "~" H 7800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR0601
 U 1 1 5CCB3027
 P 7800 4550
-F 0 "#PWR?" H 7800 4300 50  0001 C CNN
+F 0 "#PWR0601" H 7800 4300 50  0001 C CNN
 F 1 "Earth" H 7800 4400 50  0001 C CNN
 F 2 "" H 7800 4550 50  0001 C CNN
 F 3 "~" H 7800 4550 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 7800 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R605
 U 1 1 5CCB3064
 P 5850 3100
-F 0 "R?" H 5920 3146 50  0000 L CNN
+F 0 "R605" H 5920 3146 50  0000 L CNN
 F 1 "10k" H 5920 3055 50  0000 L CNN
 F 2 "" V 5780 3100 50  0001 C CNN
 F 3 "~" H 5850 3100 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "~" H 5850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R604
 U 1 1 5CCB30DD
 P 5500 3100
-F 0 "R?" H 5570 3146 50  0000 L CNN
+F 0 "R604" H 5570 3146 50  0000 L CNN
 F 1 "10k" H 5570 3055 50  0000 L CNN
 F 2 "" V 5430 3100 50  0001 C CNN
 F 3 "~" H 5500 3100 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" H 5500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R603
 U 1 1 5CCB30FF
 P 5150 3100
-F 0 "R?" H 5220 3146 50  0000 L CNN
+F 0 "R603" H 5220 3146 50  0000 L CNN
 F 1 "10k" H 5220 3055 50  0000 L CNN
 F 2 "" V 5080 3100 50  0001 C CNN
 F 3 "~" H 5150 3100 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "~" H 5150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R602
 U 1 1 5CCB3123
 P 4750 3100
-F 0 "R?" H 4820 3146 50  0000 L CNN
+F 0 "R602" H 4820 3146 50  0000 L CNN
 F 1 "10k" H 4820 3055 50  0000 L CNN
 F 2 "" V 4680 3100 50  0001 C CNN
 F 3 "~" H 4750 3100 50  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "~" H 4750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R601
 U 1 1 5CCB314F
 P 4400 3100
-F 0 "R?" H 4470 3146 50  0000 L CNN
+F 0 "R601" H 4470 3146 50  0000 L CNN
 F 1 "10k" H 4470 3055 50  0000 L CNN
 F 2 "" V 4330 3100 50  0001 C CNN
 F 3 "~" H 4400 3100 50  0001 C CNN
@@ -155,10 +155,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 3950 6100 3950
 $Comp
-L Device:C C?
+L Device:C C601
 U 1 1 5CCB3F71
 P 4250 4100
-F 0 "C?" H 4365 4146 50  0000 L CNN
+F 0 "C601" H 4365 4146 50  0000 L CNN
 F 1 "100n" H 4365 4055 50  0000 L CNN
 F 2 "" H 4288 3950 50  0001 C CNN
 F 3 "~" H 4250 4100 50  0001 C CNN
@@ -184,12 +184,12 @@ Wire Wire Line
 Connection ~ 6000 4500
 Wire Wire Line
 	6000 4500 4250 4500
-Text HLabel 4100 3350 0    50   Input ~ 0
+Text GLabel 4100 3450 0    50   Input ~ 0
+SPI2-MOSI
+Text GLabel 4100 3850 0    50   Output ~ 0
+SPI2-MISO
+Text GLabel 4100 3650 0    50   Input ~ 0
+SPI2-SCK
+Text GLabel 4100 3350 0    50   Input ~ 0
 SD-CS
-Text HLabel 4100 3450 0    50   Input ~ 0
-SD-MOSI
-Text HLabel 4100 3650 0    50   Input ~ 0
-SD-SCK
-Text HLabel 4100 3850 0    50   Output ~ 0
-SD-MISO
 $EndSCHEMATC

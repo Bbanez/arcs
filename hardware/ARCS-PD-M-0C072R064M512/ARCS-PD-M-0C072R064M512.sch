@@ -50,4 +50,6 @@ U 5CCB6FA1
 F0 "Ethernet_W5100" 50
 F1 "Ethernet_W5100.sch" 50
 $EndSheet
+Text Notes 6950 6200 0    50   ~ 0
+INIn - Input Interface n.\nOUTIn - Output Inteface n.
 $EndSCHEMATC
