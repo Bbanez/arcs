@@ -4,4 +4,5 @@
   (lib (name OPAmps)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/OPAmps.lib)(options "")(descr ""))
   (lib (name MUX-DMUX)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/MUX-DMUX.lib)(options "")(descr ""))
   (lib (name ADC)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/ADC.lib)(options "")(descr ""))
+  (lib (name P-MOS)(type Legacy)(uri /home/banez/Documents/kicad/MY-LIBS/P-MOS.lib)(options "")(descr ""))
 )

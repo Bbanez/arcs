@@ -1403,15 +1403,15 @@ Wire Wire Line
 Wire Wire Line
 	9100 4650 8600 4650
 Text HLabel 8650 1450 0    50   Input ~ 0
-SER-IN
+OUT-CARRY-IN
 Wire Wire Line
 	8650 1450 9100 1450
 Text HLabel 10100 3850 2    50   Output ~ 0
-SER-OUT
+OUT-CARRY-OUT
 Text HLabel 8600 6150 0    50   Input ~ 0
-SHIFT
+OUT-SHIFT
 Text HLabel 8600 6050 0    50   Input ~ 0
-READ-WRITE
+OUT-RW
 Connection ~ 8950 4950
 Connection ~ 8900 4850
 Wire Wire Line
